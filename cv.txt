@@ -1,0 +1,70 @@
+Profile
+Seita Kayukawa
+
+Master's student
+
+Waseda University
+Graduate School of Advanced Science and Engineereing
+Department of Pure and Applied Phisics
+Shigeo Morishima Lab.
+
+
+Contact
+Email: k940805k.lab[at]gmail.com
+Laboratory: +81-3-5286-3510
+55N406, 3-4-1 Okubo, Shinjuku, Tokyo, 169-0072, Japan.
+
+
+
+Biography
+May. 2018 - 
+Research  Internship, Robotics Institute, Carnegie Mellon University. Advisor: Chieko Asakawa, Kris Kitani
+
+Apr. 2018 - Master of Engineering (M.E.), Graduate School of Advanced Science and Engineering, Waseda University, Tokyo. Advisor: Shigeo Morishima
+
+Mar. 2018:  Bachelor of Science (B.S.), Department of Applied Physics, Waseda University, Tokyo. Advisor: Shigeo Morishima 
+
+Scholarship
+Visiting support from Super Global University (SGU), Japan (May. 2018 - Sep. 2018) [Link]
+Japan Student Services Organization (JASSO) Scholarship for short-term study abroad (May. 2018 - Aug. 2018) [Link]
+
+Patent
+"画像処理装置及び画像処理方法", 特願2017-097783 , 早稲田大学, セーレン株式会社 (出願中)
+
+
+Skils
+Programming Languages
+C++, Python, R, HTML, CSS
+
+Libraries / Platforms
+OpenCV, PyQt, PyTorch, openFrameworks, Adobe CC (Illustrator, Photoshop, Premiere pro).
+
+OS
+MacOS, Ubuntu
+
+Certifications
+Machine Learning, Courcesra MOOC by Andrew NG, Nov. 2018 [certification]
+CG Meister, CG-ARTS, Dec. 2017
+
+
+
+Other Experience
+
+Teaching Assistant at GTC Japan presented by NVIDIA, Tokyo, Dec. 2017.
+
+
+[Short paper / Extended abstracts]
+Seita Kayukawa, Keita Higuchi, Ryo Yonetani, Maanori Nakamura, Yoichi Sato, Shigeo Morishima: “Dynamic Object Scanning: Object-Based Elastic Timeline for Quickly Browsing First-Person Videos”, ACM Conference on Human Factors in Computing Systems Late Breaking Work (CHI-LBW), 2018
+
+[Poster / Demonstration]
+Seita Kayukawa, Keita Higuchi, Ryo Yonetani, Maanori Nakamura, Yoichi Sato, Shigeo Morishima: “Dynamic Object Scanning: Object-Based Elastic Timeline for Quickly Browsing First-Person Videos”, ACM Conference on Human Factors in Computing Systems Demonstrations (CHI-Demo), 2018
+
+
+[Refereed Domestic Conference]
+粥川青汰, 樋口啓太, 中村優文, 米谷竜, 佐藤洋一, 森島繁生, ”一人称視点動画の高速閲覧に有効なキューの自動生成手法”, インタラクティブシステムとソフトウェアに関するワークショップ (WISS), ロング採択 2017
+
+[Non-refereed Domenstic Conference]
+粥川青汰, 樋口啓太, 中村優文, 米谷竜, 佐藤洋一, 森島繁生, ”物体検出とユーザ入力に基づく一人称視点映像の高速閲覧手法”, 情報処理学会コンピュータビジョンとイメージメディア研究会 (CVIM), 2017
+
+資格
+Machine Learning, Stanford, Coursera, 2018. [certification]
