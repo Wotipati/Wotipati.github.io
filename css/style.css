@@ -162,55 +162,6 @@ img.sidebar__icon:hover{
   padding-bottom: 1.0rem;
 }
 
-.contact_body{
-  font-size: 1.0rem;
-  font-weight: 400;
-  /* margin-top: 1.0rem; */
-  padding-left: 1.2rem;
-  margin-bottom: 0.8rem;
-}
-.contact_icon{
-vertical-align: middle;
-line-height: 25px;
-padding-top: 0.4rem;
-padding-right: 0.3rem;
-}
-img.contact_icon:hover{
-  opacity: 0.2;
-}
-.contact_link{
-  padding-left: 0.3rem;
-  padding-right: 0.6rem;
-  vertical-align: middle;
-  height: 25px;
-  line-height: 25px;
-  font-size: 0.87rem;
-}
-.contact_lab_link{
-  padding-left: 0.2rem;
-  padding-right: 1.1rem;
-  vertical-align: middle;
-  height: 25px;
-  line-height: 25px;
-  font-size: 1.2rem;
-}
-.contact_phone{
-  padding-left: 0.2rem;
-  padding-right: 1.1rem;
-  vertical-align: middle;
-  height: 25px;
-  line-height: 25px;
-  font-size: 1.0rem;
-}
-
-.back2top{
-  margin-top: 2.0rem;
-  font-size: 1.0rem;
-  opacity: 0.75;
-  /* text-alimargin: center; */
-  color: #637D8F;
-}
-
 .date{
   padding-left: 1.2rem;
   margin-bottom: 1.0rem;
@@ -257,6 +208,59 @@ img.contact_icon:hover{
   padding-left: 2.4rem;
   padding-bottom: 0.1rem;
 }
+
+
+.contact_body{
+  font-size: 1.0rem;
+  font-weight: 400;
+  /* margin-top: 1.0rem; */
+  padding-left: 1.2rem;
+  margin-bottom: 0.8rem;
+}
+.contact_icon{
+/* vertical-align: middle; */
+/* line-height: 25px; */
+padding-top: 0.4rem;
+padding-right: 0.3rem;
+}
+img.contact_icon:hover{
+  opacity: 0.2;
+}
+.contact_link{
+  padding-left: 0.3rem;
+  padding-right: 0.6rem;
+  /* vertical-align: middle; */
+  height: 25px;
+  line-height: 25px;
+  font-size: 0.87rem;
+  vertical-align: baseline;
+}
+.contact_lab_link{
+  padding-left: 0.2rem;
+  padding-right: 1.1rem;
+  vertical-align: bottom;
+  /* vertical-align: middle; */
+  /* height: 25px; */
+  /* line-height: 25px; */
+  font-size: 1.2rem;
+}
+.contact_phone{
+  padding-left: 0.2rem;
+  padding-right: 1.1rem;
+  /* vertical-align: baseline; */
+  /* height: 25px; */
+  /* line-height: 25px; */
+  font-size: 1.0rem;
+}
+
+.back2top{
+  margin-top: 2.0rem;
+  font-size: 1.0rem;
+  opacity: 0.75;
+  /* text-alimargin: center; */
+  color: #637D8F;
+}
+
 
 .index_en{
   font-size: 1.5rem;
