@@ -1,11 +1,15 @@
 </span><!DOCTYPE html>
 <html lang="js">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>
        Seita Kayukawa's Web page
     </title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/sidebar.css" >
+
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500" rel="stylesheet">
     <link hreflang="ja" href="https://Wotipati.github.io/jp/">
     <link hreflang="en" href="https://Wotipati.github.io/">
@@ -22,35 +26,337 @@
   </head>
 
   <body>
+      <!-- <body class="py-3"> -->
+    <div class="container-fluid">
+      <div class="row">
+        <!-- <nav class="col-sm-12 col-xs-12 hidden-md-up"> -->
+        <nav class="navbar hidden-md-up navbar-light bg-light">
+          <!-- <span class="hamburger_my_name">Seita Kayukawa</span> -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hamburger_menu" aria-controls="hamburger_menu" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="hamburger_menu">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <!-- <li class="sidebar__contents">
+                <a href="#profile">Profile</a>
+              </li> -->
+              <li class="sidebar__contents">
+                <a href="#publication">Publications</a>
+              </li>
+              <li class="sidebar__contents">
+                CV (Coming soon)
+              </li>
+              <li class="sidebar__contents">
+                <a href="#contact">Contact</a>
+              </li>
+              <!-- <li class="sidebar__contents">
+                <a href="https://www.linkedin.com/in/seita-kayukawa-889254165/"><img src="./img/icon/linked_in_icon.png" alt="" width=25></a>
+              </li>
+              <li class="sidebar__contents">
+                <a href="https://www.facebook.com/profile.php?id=100009598263382"><img src="./img/icon/f_icon.png" alt="" width=20></a>
+              <li class="sidebar__contents">
+                <a href="https://github.com/Wotipati"><img src="./img/icon/github_icon.png" alt="" width=20></a>
+              </li> -->
+            </ul>
+          </div>
+        </nav>
+
+        <nav class="col-md-3 offset-lg-1 hidden-sm-down sidebar center-block">
+          <ul class="nav nav-pills flex-column">
+            <div class="sidebar__name">
+              <a href="#profile">Seita Kayukawa <span class="sr-only">(current)</span></a>
+            </div>
+            <div class="sidebar__contents">
+              <a href="#profile">Profile</a>
+            </div>
+            <div class="sidebar__contents">
+              <a href="#publication">Publications</a>
+            </div>
+            <div class="sidebar__contents">
+              CV (Coming soon)
+            </div>
+            <div class="sidebar__contents">
+              <a href="#contact">Contact</a>
+            </div>
+            <div class="sidebar__icons">
+              <span class="sidebar__icon">
+                <a href="https://www.linkedin.com/in/seita-kayukawa-889254165/"><img src="./img/icon/linked_in_icon.png" alt="" width=22></a>
+              </span>
+              <span class="sidebar__icon">
+                <a href="https://www.facebook.com/profile.php?id=100009598263382"><img src="./img/icon/f_icon.png" alt="" width=22></a>
+              </span>
+              <span class="sidebar__icon">
+                <a href="https://github.com/Wotipati"><img src="./img/icon/github_icon.png" alt="" width=22></a>
+              </span>
+            </div>
+          </ul>
+        </nav>
+
+        <main class="col-lg-6 col-md-8 col-sm-12 col-xs-12 offset-lg-4 offset-md-3 pt-md-5 pt-lg-5">
+          <div class="row">
+            <div class="col-lg-12 hidden-sm-down">
+              <h1 class="profile_tytle">
+                <a id="profile" class="anchor">
+                  Profile
+                </a>
+              </h1>
+            </div>
+            <div class="col-lg-12 hidden-md-up pt-2">
+              <h1 class="profile_tytle">
+                <a id="profile">
+                Profile
+                </a>
+              </h1>
+            </div>
+          </div>
+
+          <div class="profile_my_name">
+            Seita Kayukawa
+          </div>
+
+          <div class="profile_index">Master's student </div>
+          <div class="profile_body">
+            Waseda University <br>
+            Graduate School of Advanced Science and Engineering <br>
+            Department of Pure and Applied Physics <br>
+            Shigeo Morishima Lab.
+          </div>
+
+          <div class="profile_index">
+            Research Interest
+          </div>
+          <div class="profile_body">
+              I am interested in broad area of <span class="body_en_bold">Human-Computer Interaction (HCI)</span>,
+              and have been especially focused on <span class="body_en_bold">accessibility</span> and <span class="body_en_bold">video browsing interface</span>.
+          </div>
+
+          <div class="profile_index">
+            Biography
+          </div>
+
+          <div class="date">
+            <div class="date_date">
+              May. 2018 <wbr>- Sep. 2018
+            </div>
+            <div class="date_contents">
+              <div>Research Internship, Carnegie Mellon University</div>
+              <div>Advisor: Chieko Asakawa, Kris Kitani</div>
+            </div>
+          </div>
+
+          <div class="date">
+            <div class="date_date">
+              Apr. 2018 -
+            </div>
+            <div class="date_contents">
+              <div>Master of Engineering (M.E.), Waseda University</div>
+              <div>Advisor: Shigeo Morishima</div>
+            </div>
+          </div>
+
+          <div class="date">
+            <div class="date_date">
+              Apr. 2014 - Mar. 2018
+            </div>
+            <div class="date_contents">
+              <div>Bachelor of Science (B.S.), Waseda University</div>
+              <div>Advisor: Shigeo Morishima</div>
+            </div>
+          </div>
+
+          <h1 class="index_en">
+            <a id="publication" class="anchor">
+              Publications
+            </a>
+          </h1>
+          <!-- <div class="index_en" id="publication">
+            Publications
+          </div> -->
+          <div class="pub_type">
+            International Demonstration and Poster
+          </div>
+          <div class="pub_en">
+            <span>Seita Kayukawa, Keita Higuchi, Ryo Yonetani, Masanori Nakamura, Yoichi Sato, Shigeo Morishima,</span>
+            <span class="body_en_bold">Dynamic Object Scanning: Object-Based Elastic Timeline for Quickly Browsing First-Person Videos</span>,
+            <span><i>ACM Conference on Human Factors in Computing Systems Late Breaking Work and Demonstrations</i></span>
+            <span class="body_en_bold">(CHI-LBW and CHI-Demo)</span>,
+            <span>2018.</span>
+            <span class="body_link">
+              <a href="">
+                [DOI(LBW)]
+              </a>,
+              <a href="">
+                [DOI(Demo)]
+              </a>
+            </span>
+          </div>
+
+
+          <div class="pub_type">
+            Refereed Domestic Conference (in Japanese)
+          </div>
+          <div class="pub_js">
+            <span>粥川青汰, 樋口啓太, 中村優文, 米谷竜, 佐藤洋一, 森島繁生,</span>
+            <span><strong>一人称視点動画の高速閲覧に有効なキューの自動生成手法</strong>,</span>
+            <span><i>インタラクティブシステムとソフトウェアに関するワークショップ</i></span>
+            <span class="body_en_bold">(WISS</span></span><strong>, ロング採択</strong><span class="body_en_bold">)</span>,
+            <span class="body_en">2017</span>.
+            <span class="body_link">
+              <a href="https://www.wiss.org/WISS2017/Program.html">
+                [Link]
+              </a>
+            </span>
+          </div>
+
+          <div class="pub_type">
+            Non-refereed Domestic Conference (in Japanese)
+          </div>
+          <div class="pub_js">
+            <span>粥川青汰, 樋口啓太, 中村優文, 米谷竜, 佐藤洋一, 森島繁生,</span>
+            <span><strong>物体検出とユーザ入力に基づく一人称視点映像の高速閲覧手法</strong>,</span>
+            <span><i>情報処理学会コンピュータビジョンとイメージメディア研究会</i></span>
+            <span class="body_en_bold">(CVIM)</span>,
+            <span class="body_en">2017</span>.
+            <span class="body_link">
+              <a href="http://cvim.ipsj.or.jp/index.php?id=cvim209p">
+                [Link]
+              </a>
+            </span>
+          </div>
+
+
+
+          <div class="index_en">
+            Scholarship
+          </div>
+          <div class="list">
+            Visiting support from Super Global University (SGU), Japan, (May. 2018 - Sep. 2018)
+          </div>
+          <div class="list">
+            Japan Student Services Organization (JASSO) Scholarship for short-term study abroad, Japan (May. 2018 - Aug. 2018)
+          </div>
+
+          <h1 class="index_en">
+            Patent
+          </h1>
+          <div class="patent_list">
+            <span class="body_js">"表示制御装置、表示制御方法及び表示制御プログラム", 特願2018-80849, (出願中)</span>
+          </div>
+
+
+          <div class="index_en">
+            Skills
+          </div>
+
+          <div class="skill_type">Programming Languages:</div>
+          <div class="skill_list">C++, Python, HTML, CSS</div>
+
+          <div class="skill_type">Libraries / Platforms:</div>
+          <div class="skill_list">OpenCV, PyQt, PyTorch, openFrameworks</div>
+
+          <div class="skill_type">Others:</div>
+          <div class="skill_list">
+            Adobe CC (Illustrator, Photoshop, Premiere Pro)
+          </div>
+          <div class="skill_list">
+            User Studies, Statistical Analysis
+          </div>
+          <div class="skill_list">
+            Machine Learning, Courcesra MOOC by Andrew NG, Nov. 2018
+            <span class="body_link">
+              <a href="https://www.coursera.org/account/accomplishments/certificate/PG8KXSXF9WBW" target="_blank">
+                [Certification]
+              </a>
+            </span>
+          </div>
+          <div class="skill_list">CG Meister, CG-ARTS, Dec. 2017</div>
+
+
+          <h1 id="contact" class="index_en">
+            Contact
+          </h1>
+          <div class="contact_body">
+            Please reach me via email or social networking services rather than telephone when possible.
+          </div><br>
+          <div class="list">
+            <a href="mailto:k940805k.lab@gmail.com"><span class="contact_icon"><img src="./img/icon/mail.png" alt="" height=20></span><span class="contact_phone">k940805k.lab[at]gmail.com</span></a>
+          </div>
+          <div class="list">
+            <a href="https://www.linkedin.com/in/seita-kayukawa-889254165/"><span class="contact_icon"><img src="./img/icon/linked_in_icon.png" alt="" height=20px></span><span class="contact_link">[Linked in]</span></a>
+            <a href="https://www.facebook.com/profile.php?id=100009598263382"><span class="contact_icon"><img src="./img/icon/f_icon.png" alt="" height=20></span><span class="contact_link">[Facebook]</span></a>
+            <a href="https://github.com/Wotipati"><span class="contact_icon"><img src="./img/icon/github_icon.png" alt="" height=20></span><span class="contact_link">[Github]</span></a>
+          </div><br>
+          <div class="list">
+            <a href="http://www.mlab.phys.waseda.ac.jp/?lang=en" target="_blank"><span class="contact_icon"><img src="./img/icon/Lab.png" alt="" height=20></span><span class="body_en_bold"><span class="contact_lab_link">Shigeo Morishima Lab.</span></span></a>
+          </div>
+          <div class="list">
+            <span class="contact_icon"><img src="./img/icon/address.png" alt="" height=20></span><span class="contact_phone">55N406, 3-4-1 Okubo, Shinjuku, Tokyo, 169-0072, Japan</span>
+          </div>
+          <div class="list">
+            <span class="contact_icon"><img src="./img/icon/phone.png" alt="" height=20></span><span class="contact_phone">+81-3-5286-3510</span>
+          </div>
+        </main>
+      </div> <!-- div class="row" -->
+      <div class="row">
+        <main class="col-lg-9 col-md-11 col-sm-12 col-xs-12 offset-lg-1 pt-md-5 pt-lg-5 pt-sm-5 pt-xs-5">
+            <footer>
+              <div class="footer">&copy; 2018 Seita Kayukawa</div>
+            </footer>
+        </div>
+      <div class="row">
+    </div>
+
+
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="./js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./js/ie10-viewport-bug-workaround.js"></script>
+
+
+
+  </body>
+</html>
+
+  <!--
     <div class="page">
-      <div class="sidebar">
-        <div class="sidebar__item sidebar__item--fixed">
-          <div class="sidebar__name">
-            <a href="#profile">Seita Kayukawa</a>
-          </div>
-          <div class="sidebar__contents">
-            <a href="#profile">Profile</a>
-          </div>
-          <div class="sidebar__contents">
-            <a href="#publication">Publications</a>
-          </div>
-          <div class="sidebar__contents">CV (Coming soon)</div>
-          <div class="sidebar__contents">
-            <a href="#contact">Contact</a>
-          </div>
-          <div class="sidebar__icons">
-            <span class="sidebar__icon">
-              <a href="https://www.linkedin.com/in/seita-kayukawa-889254165/"><img src="./img/icon/linked_in_icon.png" alt="" width=20></a>
-            </span>
-            <span class="sidebar__icon">
-              <a href="https://www.facebook.com/profile.php?id=100009598263382"><img src="./img/icon/f_icon.png" alt="" width=20></a>
-            </span>
-            <span class="sidebar__icon">
-              <a href="https://github.com/Wotipati"><img src="./img/icon/github_icon.png" alt="" width=20></a>
-            </span>
+        <div class="sidebar">
+          <div class="sidebar__item sidebar__item--fixed">
+            <div class="sidebar__name">
+              <div class="phone_area">
+                <a href="#profile">Seita Kayukawa</a>
+              </div>
+            </div>
+            <div class="sidebar__contents">
+              <a href="#profile">Profile</a>
+            </div>
+            <div class="sidebar__contents">
+              <a href="#publication">Publications</a>
+            </div>
+            <div class="sidebar__contents">CV (Coming soon)</div>
+            <div class="sidebar__contents">
+              <a href="#contact">Contact</a>
+            </div>
+            <div class="sidebar__icons">
+              <span class="sidebar__icon">
+                <a href="https://www.linkedin.com/in/seita-kayukawa-889254165/"><img src="./img/icon/linked_in_icon.png" alt="" width=20></a>
+              </span>
+              <span class="sidebar__icon">
+                <a href="https://www.facebook.com/profile.php?id=100009598263382"><img src="./img/icon/f_icon.png" alt="" width=20></a>
+              </span>
+              <span class="sidebar__icon">
+                <a href="https://github.com/Wotipati"><img src="./img/icon/github_icon.png" alt="" width=20></a>
+              </span>
+            </div>
           </div>
         </div>
-      </div>
+
       <div id="profile" class="main">
         <h1 class="index_en" >
           Profile
@@ -250,7 +556,4 @@
       <footer>
         <div class="footer">&copy; 2018 Seita Kayukawa</div>
       </footer>
-    </div>
-
-  </body>
-</html>
+    </div> -->
