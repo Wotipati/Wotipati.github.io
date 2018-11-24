@@ -82,14 +82,20 @@ a.anchor{
   padding-bottom: 0.8rem;
 }
 
+.authors{
+  color: #FFFFFF;
+  padding-right: 2rem;
+  text-shadow: 1px 1px 6px #000000;
+}
 .project_title{
-  clear: both;
+  color: #FFFFFF;
   font-size: 1.6rem;
   font-weight: 500;
-  padding-top: 1.0rem;
-  border-bottom: solid 1.5px #7696AB;
+  padding-top: 2.5rem;
+  border-bottom: solid 1.5px #FFFFFF;
   padding-bottom: 0.1rem;
   margin-bottom: 1.0rem;
+  text-shadow: 1px 1px 6px #000000;
 }
 .project_index{
   clear: both;
@@ -97,16 +103,17 @@ a.anchor{
   font-weight: 500;
   margin-top: 2.5rem;
   margin-bottom: 2.0rem;
+  padding-left: 1.2rem;
 }
 .proj_label{
   display: inline-block;
   vertical-align: middle;
   margin-top: 0.8rem;
   margin-right: 0.5rem;
-  background-color: none;
+  background-color: #FFFFFF;
   background-image: none;
   padding: 0.1833em .833em;
-  border: 1px solid #4267B2;
+  border: 2px solid #4267B2;
     border-top-color: #4267B2;
     border-right-color: #4267B2;
     border-bottom-color: #4267B2;
@@ -122,7 +129,17 @@ a.anchor{
 .label_icon{
   margin-right: 0rem;
 }
+.BackGround_BBeep{
+  background:#ddd url(../img/BBeep/BBeep_BG.png) no-repeat center center;
+  background-size:cover;
+  border-radius: .5rem;
+}
 
+.BackGround_DOS{
+  background:#ddd url(../img/DO-Scanning/DO-Scanning_BG.png) no-repeat center center;
+  background-size:cover;
+  border-radius: .5rem;
+}
 
 .teaser{
   font-size: 1.2rem;
@@ -130,6 +147,7 @@ a.anchor{
   width: 95%;
   padding-bottom: 2rem;
   padding-top: 2rem;
+  padding-left: 1.2rem;
 }
 .teaser_bold{
   font-family: 'Fira Sans', sans-serif;
@@ -139,8 +157,8 @@ a.anchor{
 .abstract{
   font-size: 0.9rem;
   font-weight: 400;
-  padding-left: 1.2rem;
-  padding-right: 1.2rem;
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
   padding-bottom: 2rem;
   text-align: justify;
 }
@@ -159,7 +177,8 @@ a.anchor{
   font-size: 1.0rem;
   font-weight: 400;
   margin-top: 1.0rem;
-  padding-left: 1.2rem;
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
   padding-bottom: 1.0rem;
 }
 .pub_js{
@@ -167,14 +186,14 @@ a.anchor{
   font-family: 'a-otf-gothic-bbb-pr6n', sans-serif;
   font-weight: 400;
   font-style: normal;
-  padding-left: 1.2rem;
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
   padding-bottom: 1.0rem;
 }
 
 .label_icon{
   display: table-cell;
   vertical-align: middle;
-  /* margin-right: 0.5rem; */
 }
 .label_contents{
   display: table-cell;
@@ -279,7 +298,8 @@ a.anchor{
   font-family: 'a-otf-gothic-bbb-pr6n', sans-serif;
   font-weight: 400;
   font-style: normal;
-  padding-left: 1.2rem;
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
   padding-bottom: 1.0rem;
 }
 
