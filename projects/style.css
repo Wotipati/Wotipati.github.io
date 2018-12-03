@@ -105,30 +105,63 @@ a.anchor{
   margin-bottom: 2.0rem;
   padding-left: 1.2rem;
 }
-.proj_label{
+
+
+.label{
   display: inline-block;
   vertical-align: middle;
-  margin-top: 0.8rem;
+  margin-top: 0.5rem;
   margin-right: 0.5rem;
-  background-color: #FFFFFF;
+  background-color: none;
   background-image: none;
-  padding: 0.1833em .833em;
-  border: 2px solid #4267B2;
-    border-top-color: #4267B2;
-    border-right-color: #4267B2;
-    border-bottom-color: #4267B2;
-    border-left-color: #4267B2;
-  color: #4267B2;
+  padding: 0.1833em .533em;
+  border: 1px solid;
   text-transform: none;
+  font-family: 'Fira Sans', 'a-otf-gothic-bbb-pr6n', sans-serif;
   font-weight: 500;
   font-size: 0.75rem;
-  border: 1 solid transparent;
   border-radius: .26666667rem;
+}
+.label.linked:hover{
+  text-decoration: underline;
+  opacity: 0.55;
+}
+.label.conf{
+  border-color: #4267B2;
+  color: #4267B2;
+}
+.label.link{
+  border-color: #009299;
+  color: #009299;
+}
+.label.pdf{
+  border-color: #637D8F;
+  color: #637D8F;
+}
+.label.award{
+  border-color: #B83232;
+  color: #B83232;
+}
+
+.label.project{
+  padding: 0.2033em 0.733em;
+  font-size: 0.8rem;
+  border: 2px solid #4267B2;
+  background-color: #FFFFFF;
+  color: #4267B2;
 }
 
 .label_icon{
-  margin-right: 0rem;
+  display: table-cell;
+  vertical-align: middle;
 }
+.label_contents{
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 0.25rem;
+}
+
+
 .BackGround_BBeep{
   background:#ddd url(../img/BBeep/BBeep_BG.png) no-repeat center center;
   background-size:cover;
@@ -197,109 +230,6 @@ a.anchor{
   padding-bottom: 1.0rem;
 }
 
-.label_icon{
-  display: table-cell;
-  vertical-align: baseline;
-}
-.label_contents{
-  display: table-cell;
-  vertical-align: baseline;
-  /* vertical-align: middle; */
-  padding-left: 0.25rem;
-}
-
-.pub_conf_label{
-  display: inline-block;
-  margin-top: 0.5rem;
-  margin-right: 0.5rem;
-  background-color: none;
-  background-image: none;
-  padding: 0.1833em .533em;
-  border: 1px solid #4267B2;
-    border-top-color: #4267B2;
-    border-right-color: #4267B2;
-    border-bottom-color: #4267B2;
-    border-left-color: #4267B2;
-  color: #4267B2;
-  text-transform: none;
-  font-family: 'Fira Sans', 'a-otf-gothic-bbb-pr6n', sans-serif;
-  font-weight: 500;
-  font-size: 0.75rem;
-  border: 1 solid transparent;
-  border-radius: .26666667rem;
-}
-.pub_link_label{
-  display: inline-block;
-  margin-top: 0.5rem;
-  margin-right: 0.5rem;
-  background-color: none;
-  background-image: none;
-  padding: 0.1833em .533em;
-  border: 1px solid #009299;
-    border-top-color: #009299;
-    border-right-color: #009299;
-    border-bottom-color: #009299;
-    border-left-color: #009299;
-  color: #009299;
-  text-transform: none;
-  font-family: 'Fira Sans', 'a-otf-gothic-bbb-pr6n', sans-serif;
-  font-weight: 500;
-  font-size: 0.75rem;
-  border: 1 solid transparent;
-  border-radius: .26666667rem;
-}
-.pub_link_label:hover{
-  text-decoration: underline;
-}
-.pub_label_hover:hover{
-  opacity: 0.55;
-}
-
-.pub_pdf_label{
-  display:inline-block;
-  margin-top: 0.5rem;
-  margin-right: 0.5rem;
-  background-color: none;
-  background-image: none;
-  padding: 0.1833em .533em;
-  border: 1px solid #637D8F;
-    border-top-color: #637D8F;
-    border-right-color: #637D8F;
-    border-bottom-color: #637D8F;
-    border-left-color: #637D8F;
-  color: #637D8F;
-  text-transform: none;
-  font-family: 'Fira Sans', 'a-otf-gothic-bbb-pr6n', sans-serif;
-  font-weight: 500;
-  font-size: 0.75rem;
-  border: 1 solid transparent;
-  border-radius: .26666667rem;
-}
-.pub_pdf_label:hover{
-  text-decoration: underline;
-}
-
-.pub_award_label{
-  display: inline-block;
-  margin-top: 0.5rem;
-  margin-right: 0.5rem;
-  background-color: none;
-  background-image: none;
-  padding: 0.1833em .533em;
-  border: 1px solid #B83232;
-    border-top-color: #B83232;
-    border-right-color: #B83232;
-    border-bottom-color: #B83232;
-    border-left-color: #B83232;
-  color: #B83232;
-  text-transform: none;
-  font-family: 'Fira Sans', 'a-otf-gothic-bbb-pr6n', sans-serif;
-  font-weight: 500;
-  font-size: 0.75rem;
-  border: 1 solid transparent;
-  border-radius: .26666667rem;
-}
-
 .patent{
   font-size: 0.9rem;
   font-family: 'a-otf-gothic-bbb-pr6n', sans-serif;
@@ -360,7 +290,6 @@ a.anchor{
   text-align: center;
   padding-top: 1.0rem;
   padding-bottom: 1.0rem;
-  /* margin-left: 1.2rem; */
   opacity: 0.75;
 }
 
