@@ -90,12 +90,12 @@ a.anchor{
   color: #637D8F;
   clear: both;
   margin-bottom: 1.2rem;
-  padding-bottom: 0.2rem;
-  border-bottom: solid 1.5px #7696AB;
+  padding-bottom: 0.1rem;
+  border-bottom: solid 1.5px #AFBFC8;
 }
 .profile_my_name{
   clear: both;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 500;
   padding-top: 1.5rem;
   padding-bottom: 0.7rem;
@@ -155,7 +155,7 @@ a.anchor{
   margin-right: 0.5rem;
   background-color: none;
   background-image: none;
-  padding: 0.1833em .633em;
+  padding: 0.1033em .633em;
   border: 1px solid #4267B2;
   color: #4267B2;
   text-transform: none;
@@ -236,13 +236,6 @@ a.anchor{
   padding-left: 1.2rem;
   padding-bottom: 1.8rem;
 }
-.pub_js_bold{
-  font-size: 0.95rem;
-  font-family: 'a-otf-futo-go-b101-pr6n', sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  padding-bottom: 1.8rem;
-}
 
 
 .date{
@@ -295,14 +288,14 @@ a.anchor{
   font-size: 1.0rem;
   font-weight: 400;
   padding-left: 1.2rem;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0rem;
 }
 
 
 .contact{
   display: inline-block;
   vertical-align: middle;
-  padding-right: 1.5rem;
+  padding-right: 1.2rem;
   font-size: 1.0rem;
 }
 .contact.linked:hover{
@@ -321,7 +314,7 @@ a.anchor{
 .contact_icon{
   display: inline-block;
   vertical-align: middle;
-  padding-right: 0.3rem;
+  padding-right: 0.23rem;
 }
 
 
@@ -333,8 +326,8 @@ a.anchor{
   color: #637D8F;
   clear: both;
   padding-top: 3.0rem;
-  padding-bottom: 0.2rem;
-  border-bottom: solid 1.5px #7696AB;
+  padding-bottom: 0.1rem;
+  border-bottom: solid 1.5px #AFBFC8;
   margin-bottom: 1.2rem;
 }
 .body_en{
@@ -371,7 +364,7 @@ a.anchor{
 }
 
 .footer{
-  border-top: solid 1px #637D8F;
+  border-top: solid 1px #AFBFC8;
   text-align: center;
   padding-top: 1.0rem;
   padding-bottom: 1.0rem;
