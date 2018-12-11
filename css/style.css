@@ -148,6 +148,10 @@ a.anchor{
     display:table-cell;
     vertical-align: middle;
 }
+.project_teaser.tba img:hover{
+  opacity: 0.85;
+}
+
 .proj_label{
   display: inline-block;
   vertical-align: middle;
@@ -289,6 +293,7 @@ a.anchor{
   font-weight: 400;
   padding-left: 1.2rem;
   margin-bottom: 0rem;
+  vertical-align: middle;
 }
 
 
@@ -309,12 +314,13 @@ a.anchor{
 .contact.lab{
   font-weight: 500;
   font-size: 1.2rem;
+  vertical-align: middle;
 }
 
 .contact_icon{
   display: inline-block;
   vertical-align: middle;
-  padding-right: 0.23rem;
+  padding-right: 0.6rem;
 }
 
 
@@ -364,10 +370,9 @@ a.anchor{
 }
 
 .footer{
-  border-top: solid 1px #AFBFC8;
-  text-align: center;
+  text-align: right;
   padding-top: 1.0rem;
-  padding-bottom: 1.0rem;
+  margin-bottom: 1.5rem;
   opacity: 0.75;
 }
 
