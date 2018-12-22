@@ -209,6 +209,10 @@ a.anchor{
   border-color: #B83232;
   color: #B83232;
 }
+.label.projectpage{
+  border-color: #006DBA;
+  color: #006DBA;
+}
 .label.conf.project{
   padding: 0.2033em 0.733em;
   font-size: 0.8rem;
