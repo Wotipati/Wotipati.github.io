@@ -32,11 +32,11 @@ h3 {
 }
 
 a{
-  color: #009299;
+  color: #0B8C92;
   text-decoration: none;
 }
 a:hover{
-  color: #7696AB;
+  color: #0B8C92;
   text-decoration: underline;
 }
 a.anchor{
@@ -165,8 +165,8 @@ a.anchor{
   color: #4267B2;
 }
 .label.link{
-  border-color: #009299;
-  color: #009299;
+  border-color: #0B8C92;
+  color: #0B8C92;
 }
 .label.pdf{
   border-color: #637D8F;
