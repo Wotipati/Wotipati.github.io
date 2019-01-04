@@ -176,6 +176,10 @@ a.anchor{
   border-color: #B83232;
   color: #B83232;
 }
+.label.bibtex{
+  border-color: #435561;
+  color: #435561;
+}
 
 .label.project{
   padding: 0.2033em 0.733em;
