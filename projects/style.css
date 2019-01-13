@@ -95,7 +95,6 @@ a.anchor{
   color: #FFFFFF;
   font-size: 1.7rem;
   font-weight: 500;
-  padding-top: 2.5rem;
   border-bottom: solid 2px #D1D1D1;
   padding-bottom: 0.1rem;
   margin-bottom: 1.0rem;
@@ -129,8 +128,6 @@ a.anchor{
   position:relative;
   width:100%;
   padding-top:56.25%;
-  /* padding-left: 2.4rem;
-  padding-right: 2.4rem; */
 }
 .video iframe{
   position:absolute;
