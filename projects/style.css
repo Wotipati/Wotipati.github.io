@@ -86,7 +86,7 @@ a.anchor{
   padding-bottom: 0.8rem;
 }
 
-.authors{
+.project_authors{
   color: #FFFFFF;
   padding-right: 2rem;
   text-shadow: 1px 1px 6px #000000;
@@ -137,6 +137,27 @@ a.anchor{
   height:100%;
 }
 
+.author{
+  clear: both;
+  font-size: 1.2rem;
+  font-weight: 500;
+  /* padding-top: 1.5rem; */
+  padding-bottom: 0.5rem;
+  text-align:center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.affiliation{
+  clear: both;
+  font-size: 0.9rem;
+  font-weight: 400;
+  /* margin-bottom: 1rem; */
+  text-align:center;
+  margin-right: auto;
+  margin-left: auto;
+  /* padding-left: 1.2rem; */
+}
+
 .label{
   display: inline-block;
   vertical-align: middle;
@@ -177,7 +198,6 @@ a.anchor{
   border-color: #435561;
   color: #435561;
 }
-
 .label.project{
   padding: 0.2033em 0.733em;
   font-size: 0.8rem;
@@ -195,6 +215,7 @@ a.anchor{
   vertical-align: middle;
   padding-left: 0.25rem;
 }
+
 
 
 .BackGround_BBeep{
