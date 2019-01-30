@@ -37,6 +37,7 @@ a{
 }
 a:hover{
   color: #0B8C92;
+  opacity: 0.55;
   text-decoration: underline;
 }
 a.anchor{
@@ -235,7 +236,7 @@ a.anchor{
 .teaser_bold{
   font-family: 'Fira Sans', sans-serif;
   font-weight: 500;
-  color: #009299;
+  color: #036EB8;
 }
 .teaser_xl{
   font-size: 1.2rem;
