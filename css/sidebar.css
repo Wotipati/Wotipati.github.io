@@ -1,26 +1,6 @@
-/*
- * Base structure
- */
-
-/* Move down content because we have a fixed navbar that is 50px tall */
 body {
   color: #435561;
-  /* padding-top: 40px; */
 }
-
-/*
- * Typography
- */
-
-/* h1 {
-  margin-bottom: 20px;
-  padding-bottom: 9px;
-  border-bottom: 1px solid #eee;
-} */
-
-/*
- * Sidebar
- */
 
  .navbar-toggler{
    background-color: #FFFFFF;
@@ -33,13 +13,10 @@ body {
   bottom: 0;
   left: 0;
   z-index: 1000;
-  /* padding: 20px; */
-  /* padding-top: */
   overflow-x: hidden;
-  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-  /* border-right: 1px solid #eee; */
+  overflow-y: auto;
 }
-/* Sidebar navigation */
+
 .sidebar {
   padding-left: 2.5rem;
   padding-right: 0;
@@ -59,14 +36,8 @@ body {
 
 .main_page{
   width: 100%;
-  /* margin-right: 3.0rem; */
 }
 
-/*
- * Dashboard
- */
-
- /* Placeholders */
 .placeholders {
   padding-bottom: 3rem;
 }
