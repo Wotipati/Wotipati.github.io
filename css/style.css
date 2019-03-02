@@ -42,7 +42,7 @@ a:hover{
 }
 .anchor{
     display: block;
-    padding-top: 5.7rem;
+    padding-top: 6.0rem;
     margin-top: -5.5rem;
 }
 
@@ -93,7 +93,7 @@ a:hover{
 }
 
 .profile_tytle{
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-family: 'Fira Sans', sans-serif;
   font-weight: 500;
   color: #435561;
@@ -105,10 +105,10 @@ a:hover{
 }
 .profile_my_name{
   clear: both;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 500;
-  padding-top: 1.5rem;
-  padding-bottom: 0.7rem;
+  padding-top: 1.2rem;
+  padding-bottom: 0.6rem;
   color: #435561;
 }
 .profile_body{
@@ -121,7 +121,7 @@ a:hover{
   clear: both;
   font-size: 1.1rem;
   font-weight: 500;
-  padding-top: 1.6rem;
+  padding-top: 1.4rem;
   margin-bottom: 1.2rem;
 }
 .profile_interest{
@@ -345,7 +345,7 @@ a:hover{
 
 
 .index_en{
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-family: 'Fira Sans', sans-serif;
   font-weight: 500;
   color: #435561;
@@ -374,7 +374,7 @@ a:hover{
 
 
 .index_js{
-  font-size: 1.6rem;
+  font-size: 1.25rem;
   font-family: 'a-otf-gothic-bbb-pr6n', sans-serif;
   font-weight: 400;
   color: #00ADB5;
