@@ -2,7 +2,7 @@
 
 body {
   color: #435561;
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   font-family: 'Fira Sans', 'a-otf-gothic-bbb-pr6n', sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -10,21 +10,21 @@ body {
 }
 
 h1 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: bold;
   letter-spacing: 0.01em
 }
 
 h2 {
   clear: both;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 500;
   padding-top: 1.5rem;
   letter-spacing: 0.01em
 }
 
 h3 {
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   font-weight: bold;
   color: #637D8F;
   margin: 2px;
@@ -47,7 +47,7 @@ a.anchor{
 }
 
 .sidebar__name{
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 500;
   padding-bottom: 1.5rem;
   padding-top: 5.5rem;
@@ -55,16 +55,16 @@ a.anchor{
 }
 .sidebar__contents{
   margin-top: 1.3rem;
-  font-size: 1.0rem;
+  font-size: 0.9rem;
 }
 .sidebar__projects{
   margin-top: 1.6rem;
   margin-bottom: 1.6rem;
-  font-size: 1.0rem;
+  font-size: 0.9rem;
 }
 .sidebar__project{
   margin-top: 1.0rem;
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   padding-left: 1.2rem;
 }
 .sidebar__icons{
@@ -78,7 +78,7 @@ a.anchor{
 }
 
 .hamburger_my_name{
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 500;
 }
 
@@ -103,7 +103,7 @@ a.anchor{
 }
 .project_index{
   clear: both;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 500;
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
@@ -114,7 +114,7 @@ a.anchor{
 
 .video_type{
   clear: both;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 500;
   padding-top: 2.5rem;
   margin-bottom: 1rem;
@@ -138,7 +138,7 @@ a.anchor{
 
 .author{
   clear: both;
-  font-size: 1.1rem;
+  font-size: 1.0rem;
   font-weight: 500;
   padding-bottom: 0.3rem;
   text-align:center;
@@ -147,7 +147,7 @@ a.anchor{
 }
 .affiliation{
   clear: both;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 400;
   text-align:center;
   margin-right: auto;
@@ -227,7 +227,7 @@ a.anchor{
 }
 
 .teaser{
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 400;
   width: 100%;
   padding-left: 1.2rem;
@@ -239,14 +239,14 @@ a.anchor{
   color: #036EB8;
 }
 .teaser_xl{
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 400;
   width: 100%;
   padding-right: 1.2rem;
 }
 
 .abstract{
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   font-weight: 400;
   padding-left: 2.4rem;
   padding-right: 2.4rem;
@@ -265,7 +265,7 @@ a.anchor{
 
 
 .pub_en{
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   font-weight: 400;
   margin-top: 1.0rem;
   padding-left: 2.4rem;
@@ -273,7 +273,7 @@ a.anchor{
   padding-bottom: 1.0rem;
 }
 .pub_js{
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   font-family: 'a-otf-gothic-bbb-pr6n', sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -283,29 +283,29 @@ a.anchor{
 }
 
 .patent{
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   padding-left: 2.4rem;
   padding-right: 2.4rem;
 }
 
 .body_en{
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   font-family: 'Fira Sans', sans-serif;
   font-weight: 400;
 }
 .body_en_bold{
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   font-family: 'Fira Sans', sans-serif;
   font-weight: 500;
 }
 .body_link{
-  font-size: 0.87rem;
+  font-size: 0.77rem;
   font-family: 'Fira Sans', sans-serif;
   font-weight: 400;
 }
 
 .body_js{
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   font-family: 'a-otf-gothic-bbb-pr6n', sans-serif;
   font-weight: 400;
   font-style: normal;

@@ -2,7 +2,7 @@
 
 body {
   color: #435561;
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   font-family: 'Fira Sans', 'a-otf-gothic-bbb-pr6n', sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -10,21 +10,21 @@ body {
 }
 
 h1 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: bold;
   letter-spacing: 0.01em
 }
 
 h2 {
   clear: both;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 500;
   padding-top: 1.5rem;
   letter-spacing: 0.01em
 }
 
 h3 {
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   font-weight: bold;
   color: #435561;
   margin: 2px;
@@ -42,13 +42,13 @@ a:hover{
 }
 .anchor{
     display: block;
-    padding-top: 5.5rem;
+    padding-top: 5.7rem;
     margin-top: -5.5rem;
 }
 
 
 .sidebar__name{
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 500;
   padding-bottom: 1.5rem;
   padding-top: 5.5rem;
@@ -56,16 +56,16 @@ a:hover{
 }
 .sidebar__contents{
   margin-top: 1.3rem;
-  font-size: 1.0rem;
+  font-size: 0.9rem;
 }
 .sidebar__projects{
   margin-top: 1.6rem;
   margin-bottom: 1.6rem;
-  font-size: 1.0rem;
+  font-size: 0.9rem;
 }
 .sidebar__project{
   margin-top: 1.0rem;
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   padding-left: 1.2rem;
 }
 .sidebar__icons{
@@ -79,7 +79,7 @@ a:hover{
 }
 
 .hamburger_my_name{
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 500;
 }
 
@@ -93,44 +93,45 @@ a:hover{
 }
 
 .profile_tytle{
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-family: 'Fira Sans', sans-serif;
   font-weight: 500;
   color: #435561;
   clear: both;
+  /* margin-top: 1.5rem; */
   margin-bottom: 1.2rem;
   padding-bottom: 0.1rem;
   border-bottom: solid 1.5px #637D8F;
 }
 .profile_my_name{
   clear: both;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: 500;
   padding-top: 1.5rem;
   padding-bottom: 0.7rem;
   color: #435561;
 }
 .profile_body{
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   font-weight: 400;
   padding-left: 1.2rem;
   margin-bottom: 0.8rem;
 }
 .profile_index{
   clear: both;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 500;
   padding-top: 1.6rem;
   margin-bottom: 1.2rem;
 }
 .profile_interest{
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   font-weight: 400;
   padding-left: 1.2rem;
 }
 
 .project_name{
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 500;
 }
 .project_author{
@@ -191,7 +192,7 @@ a:hover{
   text-transform: none;
   font-family: 'Fira Sans', 'a-otf-gothic-bbb-pr6n', sans-serif;
   font-weight: 500;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   border-radius: .26666667rem;
 }
 .label.linked:hover{
@@ -224,7 +225,7 @@ a:hover{
 }
 .label.conf.project{
   padding: 0.2033em 0.733em;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 
 .label_icon{
@@ -239,19 +240,19 @@ a:hover{
 
 .pub_type{
   clear: both;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 500;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
 .pub_en{
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   font-weight: 400;
   padding-left: 1.2rem;
   padding-bottom: 1.8rem;
 }
 .pub_js{
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   font-family: 'a-otf-gothic-bbb-pr6n', sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -268,7 +269,7 @@ a:hover{
 .date_date{
   float: left;
   width: 10rem;
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   font-family: 'Fira Sans', sans-serif;
   font-weight: 500;
   font-style: nomal;
@@ -277,7 +278,7 @@ a:hover{
 }
 .date_contents{
   float: left;
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   font-family: 'Fira Sans', sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -293,7 +294,7 @@ a:hover{
 }
 
 .skill_type{
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   font-family: 'Fira Sans', sans-serif;
   font-weight: 500;
   padding-left: 1.2rem;
@@ -307,7 +308,7 @@ a:hover{
 
 
 .contact_body{
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   font-weight: 400;
   padding-left: 1.2rem;
   margin-bottom: 0rem;
@@ -319,7 +320,7 @@ a:hover{
   display: inline-block;
   vertical-align: middle;
   padding-right: 1.2rem;
-  font-size: 1.0rem;
+  font-size: 0.9rem;
 }
 .contact.linked:hover{
   opacity: 0.55;
@@ -331,7 +332,7 @@ a:hover{
 }
 .contact.lab{
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   vertical-align: middle;
 }
 
@@ -344,7 +345,7 @@ a:hover{
 
 
 .index_en{
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-family: 'Fira Sans', sans-serif;
   font-weight: 500;
   color: #435561;
@@ -355,12 +356,12 @@ a:hover{
   margin-bottom: 1.2rem;
 }
 .body_en{
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   font-family: 'Fira Sans', sans-serif;
   font-weight: 400;
 }
 .body_en_bold{
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   font-family: 'Fira Sans', sans-serif;
   font-weight: 500;
 }
