@@ -167,7 +167,7 @@ a.anchor{
   text-transform: none;
   font-family: 'Fira Sans', 'a-otf-gothic-bbb-pr6n', sans-serif;
   font-weight: 500;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   border-radius: .26666667rem;
 }
 .label.linked:hover{
@@ -196,7 +196,7 @@ a.anchor{
 }
 .label.project{
   padding: 0.2033em 0.733em;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   border: 2px solid #4267B2;
   background-color: #FFFFFF;
   color: #4267B2;
