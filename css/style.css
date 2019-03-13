@@ -148,9 +148,6 @@ a:hover{
 .project_teaser img{
   opacity: 0.85;
 }
-.project_teaser img:hover{
-  opacity: 0.55;
-}
 .table{
   display: table;
 }
@@ -159,7 +156,7 @@ a:hover{
     vertical-align: middle;
 }
 .project_teaser.tba img:hover{
-  opacity: 0.85;
+  /* opacity: 0.85; */
 }
 
 .proj_label{
