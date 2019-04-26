@@ -194,6 +194,10 @@ a.anchor{
   border-color: #435561;
   color: #435561;
 }
+.label.slide{
+  border-color: #175888;
+  color: #175888;
+}
 .label.project{
   padding: 0.2033em 0.733em;
   font-size: 0.7rem;

@@ -216,6 +216,10 @@ a:hover{
   border-color: #006DBA;
   color: #006DBA;
 }
+.label.slide{
+  border-color: #175888;
+  color: #175888;
+}
 .label.bibtex{
   border-color: #435561;
   color: #435561;
