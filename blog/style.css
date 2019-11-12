@@ -2,11 +2,15 @@
 
 body {
   color: #435561;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   font-family: 'Fira Sans', 'a-otf-gothic-bbb-pr6n', sans-serif;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0.01em
+}
+
+span {
+  /* display: inline-block; */
 }
 
 h1 {
@@ -151,23 +155,57 @@ a.anchor{
 }
 
 .blog_title{
-  font-size: 1.25rem;
-  font-family: 'a-otf-gothic-bbb-pr6n', sans-serif;
-  font-weight: 400;
+  font-size: 1.55rem;
+  font-family: 'a-otf-midashi-go-mb31-pr6n', sans-serif;
+  font-weight: 600;
   font-style: normal;
   margin-bottom: 0.1rem;
   padding-bottom: 0.25rem;
   border-bottom: solid 1.5px #637D8F;
 }
 .blog_title_en{
-  font-size: 1.45rem;
+  font-size: 1.65rem;
   font-family: 'Fira Sans', sans-serif;
   font-weight: 500;
   font-style: normal;
 }
 .blog_day{
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   font-family: 'Fira Sans', sans-serif;
   font-weight: 400;
   font-style: normal;
+  margin-bottom: 1.2rem;
+  opacity: 0.65;
+}
+.blog_div{
+  margin-bottom: 1.5rem;
+}
+.jp_bold{
+  font-family: 'Fira Sans', 'a-otf-midashi-go-mb31-pr6n', sans-serif;
+  font-weight: 600;
+  opacity: 1.0;
+  /* color: #0B8C92; */
+}
+
+.blog_subtitle{
+  font-size: 1.25rem;
+  font-family: 'Fira Sans','a-otf-midashi-go-mb31-pr6n', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin-top: 2rem;
+  margin-bottom: 2.0rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.05rem;
+  border-bottom: solid 1px rgba(99,125,124, 0.3);
+}
+
+.caption{
+  clear: both;
+  font-size: 0.95rem;
+  /* margin-top: 2.5rem; */
+  margin-bottom: 1.5rem;
+  text-align:center;
+  margin-right: auto;
+  margin-left: auto;
+  opacity: 0.65;
 }
