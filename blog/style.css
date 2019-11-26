@@ -38,6 +38,8 @@ h3 {
 a{
   color: #0B8C92;
   text-decoration: none;
+  /* text-decoration: underline; */
+
 }
 a:hover{
   color: #0B8C92;
@@ -88,7 +90,8 @@ a.anchor{
 
 .list{
   padding-left: 1.2rem;
-  padding-bottom: 0.8rem;
+  margin-bottom: 1.5rem;
+  /* padding-bottom: 0.8rem; */
 }
 
 
@@ -182,8 +185,7 @@ a.anchor{
 }
 .jp_bold{
   font-family: 'Fira Sans', 'a-otf-midashi-go-mb31-pr6n', sans-serif;
-  font-weight: 600;
-  opacity: 1.0;
+  font-weight: 500;
 }
 
 .blog_subtitle{
