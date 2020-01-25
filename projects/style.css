@@ -219,13 +219,13 @@ a.anchor{
 
 
 .BackGround_BBeep{
-  background:#ddd url(../img/BBeep/BBeep_BG.png) no-repeat center center;
+  background:#ddd url(./BBeep/images/BBeep_BG.png) no-repeat center center;
   background-size:cover;
   border-radius: .5rem;
 }
 
 .BackGround_DOS{
-  background:#ddd url(../img/DO-Scanning/DO-Scanning_BG.png) no-repeat center center;
+  background:#ddd url(./DO-Scanning/images/DO-Scanning_BG.png) no-repeat center center;
   background-size:cover;
   border-radius: .5rem;
 }
