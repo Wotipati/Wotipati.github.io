@@ -230,6 +230,12 @@ a.anchor{
   border-radius: .5rem;
 }
 
+.BackGround_CHI20Line{
+  background:#ddd url(./CHI2020_LBW_Line/image/CHI20_Line_BG.png) no-repeat center center;
+  background-size:cover;
+  border-radius: .5rem;
+}
+
 .teaser{
   font-size: 1.1rem;
   font-weight: 400;

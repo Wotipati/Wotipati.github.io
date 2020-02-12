@@ -1,0 +1,484 @@
+</span><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>
+        Smartphone-Based Assistance for Blind People to Stand in Lines
+    </title>
+    <meta property="og:site_name" content="Smartphone-Based Assistance for Blind People to Stand in Lines">
+    <meta property="og:title" content="Smartphone-Based Assistance for Blind People to Stand in Lines">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://wotipati.github.io/projects/CHI2020_LBW_Line/CHI2020_LBW_Line.html">
+    <meta property="og:image" content="https://wotipati.github.io/projects/CHI2020_LBW_Line/image/chi20_line_thumb.png">
+    <meta property="og:description" content="">
+    <link rel="shortcut icon" href="../../img/icon/web_icon.ico" >
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/normalize.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../../css/sidebar.css" >
+
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500" rel="stylesheet">
+    <link hreflang="ja" href="https://Wotipati.github.io/jp/">
+    <link hreflang="en" href="https://Wotipati.github.io/">
+    <script>
+      (function(d) {
+        var config = {
+          kitId: 'ehe2scb',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130769410-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-130769410-1');
+    </script>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="navbar hidden-md-up navbar-light bg-light">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hamburger_menu" aria-controls="hamburger_menu" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="hamburger_menu">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0 float-right">
+              <li class="sidebar__contents">
+                <a href="../../index.html#profile">Profile</a>
+              </li>
+              <li class="sidebar__contents">
+                <a href="../../index.html#projects">Projects</a>
+              </li>
+              <li class="sidebar__contents">
+                <a href="../../index.html#publication">Publications</a>
+              </li>
+              <li class="sidebar__contents">
+                <a href="./resume/Resume_Seita_Kayukawa.pdf" target="_blank">
+                  Resume/CV
+                </a>
+              </li>
+              <li class="sidebar__contents">
+                <a href="../../index.html#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <nav class="col-lg-3 col-md-3 hidden-sm-down sidebar mx-auto">
+          <div class="float-right pr-lg-5">
+            <ul class="nav nav-pills flex-column">
+              <div class="sidebar__name">
+                <a href="../../index.html#profile">Seita Kayukawa</a>
+              </div>
+              <div class="sidebar__contents">
+                <a href="../../index.html#profile">Profile</a>
+              </div>
+              <div class="sidebar__contents">
+                <a href="../../index.html#projects">Projects</a>
+              </div>
+              <div class="sidebar__contents">
+                <a href="../../index.html#publication">Publications</a>
+              </div>
+              <div class="sidebar__contents">
+                <a href="../../resume/Resume_Seita_Kayukawa.pdf" target="_blank">
+                  Resume/CV
+                </a>
+              </div>
+              <div class="sidebar__contents">
+                <a href="../../index.html#contact">Contact</a>
+              </div>
+              <div class="sidebar__icons">
+                <span class="sidebar__icon">
+                  <a href="https://www.facebook.com/profile.php?id=100009598263382" target="_blank"><img src="../../img/icon/f_icon.png" alt="" width=22></a>
+                </span>
+                <span class="sidebar__icon">
+                  <a href="https://twitter.com/_wotipati_" target="_blank"><img src="../../img/icon/twitter_icon.png" alt="" width=22></a>
+                </span>
+                <span class="sidebar__icon">
+                  <a href="https://github.com/Wotipati" target="_blank"><img src="../../img/icon/github_icon.png" alt="" width=22></a>
+                </span>
+              </div>
+            </ul>
+          </div>
+        </nav>
+
+        <main class="col-lg-8 col-md-8 col-12 offset-md-3 pt-md-5">
+          <div class="BackGround_CHI20Line">
+            <div style="padding-left: 2rem; padding-bottom: 1.0rem">
+              <img src="./image/chi2020_logo.png" alt="" width=90 style="padding-top: 1.6rem; padding-bottom: 0.8rem;">
+              <div class="project_title">
+                Smartphone-Based Assistance for Blind People to Stand in Lines
+              </div>
+
+              <div class="project_authors">
+                Seita Kayukawa, Nobuhiro Takagi, João Guerreiro, Shigeo Morishima, and Chieko Asakawa
+              </div>
+
+              <!-- <div style="padding-top: 0.3rem"><span class="label project">CHI'19</span></div> -->
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xl-10 offset-xl-1 hidden-lg-up">
+              <video style="padding-top: 1rem; display: block; width: 100%" autoplay="" loop="" playsinline="" muted="">
+                <source src="../../img/BBeep/BBeep_Summary.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="col-xl-10 offset-xl-1 col-12 hidden-md-down">
+              <video style="padding-top: 1rem; display: block; width: 100%" autoplay="" loop="" playsinline="" muted="">
+                <source src="../../img/BBeep/BBeep_Summary.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+
+          <div class="teaser">
+            We present an assistive suitcase system, <span class="teaser_bold">BBeep</span>, that aims to <span class="teaser_bold">clear the path for blind users</span> when walking through <span class="teaser_bold">crowded environments</span>.
+          </div>
+
+          <br>
+
+          <div class="row align-items-center">
+            <div class="col-xl-6 col-md-10 col-sm-10 offset-xl-0 offset-md-1 offset-1 col-10">
+              <video style="padding-top: 1.5rem; display: block; width: 100%" autoplay="" loop="" playsinline="" muted="">
+                <source src="../../img/BBeep/SoundEmission.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="col-xl-6 col-12 hidden-lg-up">
+              <div class="teaser">
+                BBeep uses pre-emptive <span class="teaser_bold">sound notifcations</span> to help clear a path by <span class="teaser_bold">alerting both the user and nearby pedestrians</span> about the potential risk of collision.
+              </div>
+            </div>
+            <div class="col-xl-6 hidden-md-down">
+              <div class="teaser_xl">
+                BBeep uses pre-emptive <span class="teaser_bold">sound notifcations</span> to help clear a path by <span class="teaser_bold">alerting both the user and nearby pedestrians</span> about the potential risk of collision.
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-sm-10 col-12 offset-sm-1 hidden-lg-up">
+              <div style="padding-left: 2rem; padding-right: 2rem">
+                <div class="video_type" style="text-align:center">
+                  30-sec Preview Video
+                </div>
+                <div class="video">
+                  <iframe src="https://www.youtube.com/embed/rHDGhdTJZwk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-10 col-12 offset-sm-1 hidden-lg-up">
+              <div style="padding-left: 2rem; padding-right: 2rem">
+                <div class="video_type" style="text-align:center">
+                  Main Video [2:35]
+                </div>
+                <div class="video">
+                  <iframe src="https://www.youtube.com/embed/t82o0wxeB04" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 hidden-md-down">
+              <div style="padding-left: 2rem;">
+                <div class="video_type" style="text-align:center">
+                  30-sec Preview Video
+                </div>
+                <div class="video">
+                  <iframe src="https://www.youtube.com/embed/rHDGhdTJZwk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 hidden-md-down">
+              <div style="padding-right: 2rem">
+                <div class="video_type" style="text-align:center">
+                  Main Video [2:35]
+                </div>
+                <div class="video">
+                  <iframe src="https://www.youtube.com/embed/t82o0wxeB04" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project_line"></div>
+
+          <div class="project_index" style="text-align:center">
+            Abstract
+          </div>
+          <div class="abstract">
+            We present an assistive suitcase system, BBeep, for supporting blind people when walking through crowded environments. BBeep uses pre-emptive sound notifications to help clear a path by alerting both the user and nearby pedestrians about the potential risk of collision. BBeep triggers notifications by tracking pedestrians, predicting their future position in real-time, and provides sound notifications only when it anticipates a future collision. We investigate how different types and timings of sound affect nearby pedestrian behavior. In our experiments, we found that sound emission timing has a significant impact on nearby pedestrian trajectories when compared to different sound types. Based on these findings, we performed a real-world user study at an international airport, where blind participants navigated with the suitcase in crowded areas. We observed that the proposed system significantly reduces the number of imminent collisions.
+          </div>
+
+          <div class="project_line"></div>
+
+          <div class="project_index" style="text-align:center">
+            Publications
+          </div>
+          <div class="pub_en">
+            <div>
+              <span>Seita Kayukawa, Keita Higuchi, João Guerreiro, Shigeo Morishima, Yoichi Sato, Kris Kitani, and Chieko Asakawa.</span>
+              <span>2019.</span>
+              <span>BBeep: A Sonic Collision Avoidance System for Blind Travellers and Nearby Pedestrians.</span>
+              <span><i>ACM CHI Conference on Human Factors in Computing Systems (CHI'19)</i></span>.
+            </div>
+            <div>
+              <span class="label conf">
+                <span class="label_icon"><img src="../../img/icon/conf_icon.png" alt="" height=14></span>
+                <span class="label_contents">CHI'19</span>
+              </span>
+              <a href="https://dl.acm.org/citation.cfm?doid=3290605.3300282" target="_blank" class="label link linked">
+                <span class="label_icon"><img src="../../img/icon/link_icon.png" alt="" height=13></span>
+                <span class="label_contents">DOI</span>
+              </a>
+              <a href="../../projects/BBeep/talk_slide/CHI2019_talk_slide.pdf" target="_blank" class="label slide linked">
+                <span class="label_icon"><img src="../../img/icon/slide.png" alt="" height=14></span>
+                <span class="label_contents">Talk Slide</span>
+              </a>
+              <a href="../../projects/BBeep/paper/CHI'19_BBeep_preprint.pdf" target="_blank" class="label pdf linked">
+                <span class="label_icon"><img src="../../img/icon/paper_pdf.png" alt="" height=14></span>
+                <span class="label_contents">Paper (Preprint)</span>
+              </a>
+              <a href="../../projects/BBeep/BBeep_BibTex.html" target="_blank" class="label bibtex linked">
+                <span class="label_icon"><img src="../../img/icon/BibTex_icon.png" alt="" height=14></span>
+                <span class="label_contents">BibTex</span>
+              </a>
+              <a href="http://www.waseda.jp/student/gakusei/pdf/2018_onoazusa.pdf" target="_blank" class="label award">
+                <span class="label_icon"><img src="../../img/icon/trophy.png" alt="" height=13></span>
+                <span class="label_contents">Azusa Ono Memorial Award</span>
+              </a>
+            </div>
+          </div>
+          <br>
+          <div class="pub_js">
+            <div>
+              <span>粥川青汰, 樋口啓太, João Guerreiro, 森島繁生, 佐藤洋一, Kris Kitani, 浅川智恵子.</span>
+              <span>BBeep:歩行者との衝突予測に基づく警告音を用いた視覚障害者のための衝突回避支援システム.</span>
+              <span><i>インタラクション</i></span>,
+              <span class="body_en">2019</span>.
+            </div>
+            <div>
+              <span class="label conf">
+                <span class="label_icon"><img src="../../img/icon/conf_icon.png" alt="" height=14></span>
+                <span class="label_contents"><strong>インタラクション</strong>'19</span>
+              </span>
+              <a href="https://www.interaction-ipsj.org/2019/program/" target="_blank" class="label link linked">
+                <span class="label_icon"><img src="../../img/icon/link_icon.png" alt="" height=13></span>
+                <span class="label_contents">Link</span>
+              </a>
+              <a href="../../projects/BBeep/talk_slide/インタラクション2019_talk_slide.pdf" target="_blank" class="label slide linked">
+                <span class="label_icon"><img src="../../img/icon/slide.png" alt="" height=14></span>
+                <span class="label_contents">Talk Slide</span>
+              </a>
+              <a href="../../projects/BBeep/paper/Interaction'19_preprint.pdf" target="_blank" class="label pdf linked">
+                <span class="label_icon"><img src="../../img/icon/paper_pdf.png" alt="" height=14></span>
+                <span class="label_contents">Paper (Preprint)</span>
+              </a>
+              <a href="http://www.interaction-ipsj.org/2019/award/" target="_blank" class="label award">
+                <span class="label_icon"><img src="../../img/icon/trophy.png" alt="" height=13></span>
+                <span class="label_contents">Best Paper Award</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="project_line"></div>
+
+          <div class="project_index" style="text-align:center">
+            Authors
+          </div>
+
+          <div class="row">
+            <div class="col-lg-10 offset-lg-1 hidden-md-down">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="author" style="text-align:center">
+                    Seita Kayukawa
+                  </div>
+                  <div class="affiliation" style="text-align:center">
+                    Waseda University
+                  </div>
+                  <div class="affiliation" style="text-align:center">
+                    Carnegie Mellon University
+                  </div>
+                  <div style="text-align:center; padding-bottom: 2.5rem; padding-top: 0.2rem;">
+                    <a href="https://wotipati.github.io" target="_blank" class="label link linked">
+                      <span class="label_icon"><img src="../../img/icon/link_icon.png" alt="" height=13></span>
+                      <span class="label_contents">Personal Page</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="author" style="text-align:center">
+                    Keita Higuchi
+                  </div>
+                  <div class="affiliation" style="text-align:center">
+                    University of Tokyo
+                  </div>
+                  <div style="text-align:center; padding-bottom: 2.5rem; padding-top: 0.2rem;">
+                    <a href="https://keihigu.github.io" target="_blank" class="label link linked">
+                      <span class="label_icon"><img src="../../img/icon/link_icon.png" alt="" height=13></span>
+                      <span class="label_contents">Personal Page</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="author" style="text-align:center">
+                    João Guerreiro
+                  </div>
+                  <div class="affiliation" style="text-align:center">
+                    Carnegie Mellon University
+                  </div>
+                  <div style="text-align:center; padding-bottom: 2.5rem; padding-top: 0.2rem;">
+                    <a href="http://joaoguerreiro.net/" target="_blank" class="label link linked">
+                      <span class="label_icon"><img src="../../img/icon/link_icon.png" alt="" height=13></span>
+                      <span class="label_contents">Personal Page</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 hidden-lg-up">
+              <div class="author" style="text-align:center">
+                Seita Kayukawa
+              </div>
+              <div class="affiliation" style="text-align:center">
+                Waseda University
+              </div>
+              <div class="affiliation" style="text-align:center">
+                Carnegie Mellon University
+              </div>
+              <div style="text-align:center; padding-bottom: 2.5rem; padding-top: 0.2rem;">
+                <a href="https://wotipati.github.io" target="_blank" class="label link linked">
+                  <span class="label_icon"><img src="../../img/icon/link_icon.png" alt="" height=13></span>
+                  <span class="label_contents">Personal Page</span>
+                </a>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 hidden-lg-up">
+              <div class="author" style="text-align:center">
+                Keita Higuchi
+              </div>
+              <div class="affiliation" style="text-align:center">
+                University of Tokyo
+              </div>
+              <div style="text-align:center; padding-bottom: 2.5rem; padding-top: 0.2rem;">
+                <a href="https://keihigu.github.io" target="_blank" class="label link linked">
+                  <span class="label_icon"><img src="../../img/icon/link_icon.png" alt="" height=13></span>
+                  <span class="label_contents">Personal Page</span>
+                </a>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 hidden-lg-up">
+              <div class="author" style="text-align:center">
+                João Guerreiro
+              </div>
+              <div class="affiliation" style="text-align:center">
+                Carnegie Mellon University
+              </div>
+              <div style="text-align:center; padding-bottom: 2.5rem; padding-top: 0.2rem;">
+                <a href="http://joaoguerreiro.net/" target="_blank" class="label link linked">
+                  <span class="label_icon"><img src="../../img/icon/link_icon.png" alt="" height=13></span>
+                  <span class="label_contents">Personal Page</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 offset-sm-2 col-lg-3 offset-lg-0">
+              <div class="author" style="text-align:center">
+                Shigeo Morishima
+              </div>
+              <div class="affiliation" style="text-align:center">
+                Waseda Research Institute for Science and Engineering
+              </div>
+              <div style="text-align:center; padding-top: 0.2rem; padding-bottom: 2.5rem;">
+                <a href="http://www.mlab.phys.waseda.ac.jp/team/shigeo-morishima-2/?lang=en" target="_blank" class="label link linked">
+                  <span class="label_icon"><img src="../../img/icon/link_icon.png" alt="" height=13></span>
+                  <span class="label_contents">Personal Page</span>
+                </a>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 col-lg-3">
+              <div class="author" style="text-align:center">
+                Yoichi Sato
+              </div>
+              <div class="affiliation" style="text-align:center">
+                University of Tokyo
+              </div>
+              <div style="text-align:center; padding-top: 0.2rem; padding-bottom: 2.5rem;">
+                <a href="http://www.hci.iis.u-tokyo.ac.jp/~ysato/" target="_blank" class="label link linked">
+                  <span class="label_icon"><img src="../../img/icon/link_icon.png" alt="" height=13></span>
+                  <span class="label_contents">Personal Page</span>
+                </a>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 offset-sm-2 col-lg-3 offset-lg-0">
+              <div class="author" style="text-align:center">
+                Kris Kitani
+              </div>
+              <div class="affiliation" style="text-align:center">
+                Carnegie Mellon University
+              </div>
+              <div style="text-align:center; padding-top: 0.2rem; padding-bottom: 2.5rem;">
+                <a href="http://www.cs.cmu.edu/~kkitani/" target="_blank" class="label link linked">
+                  <span class="label_icon"><img src="../../img/icon/link_icon.png" alt="" height=13></span>
+                  <span class="label_contents">Personal Page</span>
+                </a>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 col-lg-3">
+              <div class="author" style="text-align:center">
+                Chieko Asakawa
+              </div>
+              <div class="affiliation" style="text-align:center">
+                IBM Research
+              </div>
+              <div class="affiliation" style="text-align:center">
+                Carnegie Mellon University
+              </div>
+              <div style="text-align:center; padding-top: 0.2rem;">
+                <a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-chiekoa" target="_blank" class="label link linked">
+                  <span class="label_icon"><img src="../../img/icon/link_icon.png" alt="" height=13></span>
+                  <span class="label_contents">Personal Page</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </main>
+      </div> <!-- div class="row" -->
+
+      <div class="row">
+        <div class="col-lg-10 col-md-11 col-12 offset-lg-1 pt-5">
+          <footer>
+            <div class="footer">
+              &copy; Seita Kayukawa 2018-2020
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../js/ie10-viewport-bug-workaround.js"></script>
+
+
+
+  </body>
+</html>
