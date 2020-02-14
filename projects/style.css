@@ -236,6 +236,13 @@ a.anchor{
   border-radius: .5rem;
 }
 
+.BackGround_CHI20BlindPilot{
+  background:#ddd url(./CHI2020_LBW_BlindPilot/image/BlindPilot_BG.png) no-repeat center center;
+  background-size:cover;
+  border-radius: .5rem;
+}
+
+
 .teaser{
   font-size: 1.1rem;
   font-weight: 400;
