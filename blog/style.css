@@ -210,3 +210,79 @@ a.anchor{
   margin-left: auto;
   opacity: 0.65;
 }
+
+blockquote {
+  position: relative;
+  padding: 10px 12px;
+  box-sizing: border-box;
+  font-style: italic;
+  color: #435561;
+  border-left: solid 40px #c4c4c4;
+  background: #f3f3f3;
+  margin-bottom: 0.25rem;
+}
+
+blockquote:before{
+  display: inline-block;
+  position: absolute;
+  top: 60%;
+  left: -45px;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  content: "“";
+  font-family: sans-serif;
+  color: #FFF;
+  font-size: 80px;
+  line-height: 1;
+}
+
+blockquote p {
+  position: relative;
+  padding: 0;
+  margin: 10px 0;
+  z-index: 3;
+  line-height: 1.7;
+}
+
+blockquote cite {
+  display: block;
+  text-align: right;
+  color: #888888;
+  font-size: 0.9em;
+}
+
+
+.cite_reference{
+  font-size: 0.75rem;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: right;
+  margin-bottom: 1.5rem;
+  opacity: 0.65;
+}
+
+.figure_reference{
+  font-size: 0.75rem;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  opacity: 0.65;
+}
+
+.resizeimage {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 600px; 
+}
+.resizeimage img { width: 85%;}
+
+.resizeimagewide {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1000px; 
+}
+.resizeimagewide img { width: 100%;} 
