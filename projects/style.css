@@ -205,6 +205,10 @@ a.anchor{
   background-color: #FFFFFF;
   color: #4267B2;
 }
+.label.blog{
+  border-color: #435561;
+  color: #435561;
+}
 
 .label_icon{
   display: table-cell;
