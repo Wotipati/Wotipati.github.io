@@ -83,6 +83,20 @@ a.anchor{
 .sidebar__icon img:hover{
   opacity: 0.75;
 }
+.sidebar__blogEntry{
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding-top: 5.0rem;
+  margin-bottom: 0.75rem;
+}
+.sidebar__blogTitle{
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+}
+.sidebar__blogDate{
+  font-size: 0.75rem;
+}
+
 
 .hamburger_my_name{
   font-size: 1.4rem;
