@@ -246,6 +246,12 @@ a.anchor{
   border-radius: .5rem;
 }
 
+.BackGround_IMWUT2020{
+  background:#ddd url(./IMWUT2020/image/IMWUT2020_BG.png) no-repeat center center;
+  background-size:cover;
+  border-radius: .5rem;
+}
+
 
 .teaser{
   font-size: 1.1rem;
