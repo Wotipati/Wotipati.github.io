@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>
-      BlindPilot: A Robotic Local Navigation System that Leads Blind People to a Landmark Object
+      Guiding Blind Pedestrians in Public Spaces by Understanding Walking Behavior of Nearby Pedestrians
     </title>
     <meta property="og:site_name" content="Guiding Blind Pedestrians in Public Spaces by Understanding Walking Behavior of Nearby Pedestrians">
     <meta property="og:title" content="Guiding Blind Pedestrians in Public Spaces by Understanding Walking Behavior of Nearby Pedestrians">
@@ -129,53 +129,35 @@
           <div class="row align-items-center">
             <div class="col-xl-6 col-lg-8 col-10 offset-xl-0 offset-lg-2 offset-1">
               <video class="rounded" style="margin-top: 1.5rem; margin-bottom: 1.0rem; display: block; width: 100%; border-radius: .5rem" autoplay="" loop="" playsinline="" muted="">
-                <source src="./movie/teaserMovie.mp4" type="video/mp4">
+                <source src="./movie/teaser.mp4" type="video/mp4">
               </video>
             </div>
-            <div class="col-xl-6 col-12 hidden-lg-up" style="margin-bottom: 1.0rem;">
+            <div class="col-xl-6 col-12 hidden-lg-up">
               <div class="teaser">
                 We present a guiding system to <span class="teaser_bold">help blind people walk in public spaces</span> while making their walking seamless with nearby pedestrians.
               </div>
             </div>
-            <div class="col-xl-6 hidden-md-down" style="margin-bottom: 1.0rem;">
+            <div class="col-xl-6 hidden-md-down">
               <div class="teaser_xl">
                 We present a guiding system to <span class="teaser_bold">help blind people walk in public spaces</span> while making their walking seamless with nearby pedestrians.
               </div>
             </div>
           </div>
-
-          <div class="row align-items-center">
-            <div class="col-sm-5 col-md-6 col-10 offset-md-0 offset-sm-1 offset-1">
-              <video class="rounded" style="margin-top: 1.5rem; margin-bottom: -0.0rem; display: block; width: 100%; border-radius: .5rem" autoplay="" loop="" playsinline="" muted="">
-                <source src="./movie/detection.mp4" type="video/mp4">
-              </video>
-            </div>
-            <div class="col-md-6 col-sm-5 col-10 offset-sm-0 offset-1">
-              <video class="rounded" style="margin-top: 1.5rem; margin-bottom: -0.0rem; display: block; width: 100%; border-radius: .5rem" autoplay="" loop="" playsinline="" muted="">
-                <source src="./movie/detection.mp4" type="video/mp4">
-              </video>
-            </div>
-            <div class="col-12">
-              <div class="teaser">
-                The system senses the behavior of surrounding pedestrians, predicts risks of collisions, and alerts users to help them avoid collisions.
-              </div>
-            </div>
-          </div>
-
+          
           <div class="row align-items-center">
             <div class="col-xl-6 hidden-lg-down">
               <div class="teaser_xl">
-                BlindPilot uses an <span class="teaser_bold">RGB-D camera to detect the position of an empty chair</span> and uses a <span class="teaser_bold">LiDAR to build a 2D map</span> of the surrounding area. BlindPilot then <span class="teaser_bold">generates a path to the chair</span> and moves along the generated path. 
+                By using two RGBD cameras, an IMU sensor, and LIDAR mounted on a suitcase, the system <span class="teaser_bold">senses the behavior of surrounding pedestrians</span> and <span class="teaser_bold">predicts risks of collisions</span>.
               </div>
             </div>
             <div class="col-xl-6 col-lg-8 col-10 offset-xl-0 offset-lg-2 offset-1 ">
-              <video class="rounded" style="margin-top: 1.5rem; margin-bottom: -1.0rem; display: block; width: 100%; border-radius: .5rem" autoplay="" loop="" playsinline="" muted="">
+              <video class="rounded" style="margin-top: 1.5rem; margin-bottom: 1.0rem; display: block; width: 100%; border-radius: .5rem" autoplay="" loop="" playsinline="" muted="">
                 <source src="./movie/detection.mp4" type="video/mp4">
               </video>
             </div>
             <div class="col-xl-6 col-12 hidden-xl-up">
               <div class="teaser">
-                BlindPilot uses an <span class="teaser_bold">RGB-D camera to detect the position of an empty chair</span> and uses a <span class="teaser_bold">LiDAR to build a 2D map</span> of the surrounding area. BlindPilot then <span class="teaser_bold">generates a path to the chair</span> and moves along the generated path. 
+                By using two RGBD cameras, an IMU sensor, and LIDAR mounted on a suitcase, the system <span class="teaser_bold">senses the behavior of surrounding pedestrians</span> and <span class="teaser_bold">predicts risks of collisions</span>.
               </div>
             </div>
           </div>
@@ -183,17 +165,34 @@
           <div class="row align-items-center">
             <div class="col-xl-6 col-lg-8 col-10 offset-xl-0 offset-lg-2 offset-1">
               <video class="rounded" style="margin-top: 1.5rem; margin-bottom: 1.0rem; display: block; width: 100%; border-radius: .5rem" autoplay="" loop="" playsinline="" muted="">
-                <source src="./movie/evaluation.mp4" type="video/mp4">
+                <source src="./movie/onpathoffpath.mp4" type="video/mp4">
               </video>
             </div>
             <div class="col-xl-6 col-12 hidden-lg-up">
               <div class="teaser">
-                Our user study showed that BlindPilot enabled users to <span class="teaser_bold">approach a chair faster with a greater feeling of security and less effort</span> compared to a sound-based local navigation system.
+                The system has two modes: <span class="teaser_bold">the on-path mode</span> that helps users avoid collisions without changing their path by adapting their walking speed; and <span class="teaser_bold">the off-path mode</span> that navigates an alternative path to go around pedestrians standing in the way.
               </div>
             </div>
             <div class="col-xl-6 hidden-md-down">
               <div class="teaser_xl">
-                Our user study showed that BlindPilot enabled users to <span class="teaser_bold">approach a chair faster with a greater feeling of security and less effort</span> compared to a sound-based local navigation system.
+                The system has two modes: <span class="teaser_bold">the on-path mode</span> that helps users avoid collisions without changing their path by adapting their walking speed; and <span class="teaser_bold">the off-path mode</span> that navigates an alternative path to go around pedestrians standing in the way.
+              </div>
+            </div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-xl-6 hidden-lg-down">
+              <div class="teaser_xl">
+                We implemented <span class="teaser_bold">tactile and audio interfaces</span> to evaluate the effectiveness of each modality for collision avoidance. The tactile interface navigates users with a newly developed <span class="teaser_bold">directional lever</span>, which shows the correct direction.
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-8 col-10 offset-xl-0 offset-lg-2 offset-1 ">
+              <video class="rounded" style="margin-top: 1.5rem; margin-bottom: 1.0rem; display: block; width: 100%; border-radius: .5rem" autoplay="" loop="" playsinline="" muted="">
+                <source src="./movie/interface.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="col-xl-6 col-12 hidden-xl-up">
+              <div class="teaser">
+                We implemented tactile and audio interfaces to evaluate the effectiveness of each modality for collision avoidance. The tactile interface navigates users with a newly developed directional lever, which shows the correct direction.
               </div>
             </div>
           </div>
@@ -223,25 +222,25 @@
             Abstract
           </div>
           <div class="abstract">
-            Blind people face various local navigation challenges in their daily lives such as identifying empty seats in crowded stations, navigating toward a seat, and stopping and sitting at the correct spot. Although voice navigation is a commonly used solution, it requires users to carefully follow frequent navigational sounds over short distances. Therefore, we presented an assistive robot, BlindPilot, which guides blind users to landmark objects using an intuitive handle. BlindPilot employs an RGB-D camera to detect the positions of target objects and uses LiDAR to build a 2D map of the surrounding area. On the basis of the sensing results, BlindPilot then generates a path to the object and guides the user safely. To evaluate our system, we also implemented a sound-based navigation system as a baseline system, and asked six blind participants to approach an empty chair using the two systems. We observed that BlindPilot enabled users to approach a chair faster with a greater feeling of security and less effort compared to the baseline system. 
+            We present a guiding system to help blind people walk in public spaces while making their walking seamless with nearby pedestrians. Blind users carry a rolling suitcase-shaped system that has two RGBD Cameras, an inertial measurement unit (IMU) sensor, and light detection and ranging (LiDAR) sensor. The system senses the behavior of surrounding pedestrians, predicts risks of collisions, and alerts users to help them avoid collisions. It has two modes: the <em>"on-path"</em> mode that helps users avoid collisions without changing their path by adapting their walking speed; and the <em>"off-path"</em> mode that navigates an alternative path to go around pedestrians standing in the way. Auditory and tactile modalities have been commonly used for non-visual navigation systems, so we implemented two interfaces to evaluate the effectiveness of each modality for collision avoidance. A user study with 14 blind participants in public spaces revealed that participants could successfully avoid collisions with both modalities. We detail the characteristics of each modality.
           </div>
 
           <div class="project_line"></div>
 
           <div class="project_index" style="text-align:center">
-            Publication
+            Publications
           </div>
           <div class="pub_en">
             <div>
               <span>Seita Kayukawa, Tatsuya Ishihara, Hironobu Takagi, Shigeo Morishima, and Chieko Asakawa.</span>
               <span>2020.</span>
               <span>Guiding Blind Pedestrians in Public Spaces by Understanding Walking Behavior of Nearby Pedestrians.</span>
-              <span><i>Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems (CHI EA 2020)</i></span>.
+              <span><i>Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)</i></span>.
             </div>
             <div>
               <span class="label conf">
                 <span class="label_icon"><img src="../../img/icon/conf_icon.png" alt="" height=14></span>
-                <span class="label_contents">CHI EA 2020</span>
+                <span class="label_contents">IMWUT</span>
               </span>
               <a href="https://dl.acm.org/doi/abs/10.1145/3334480.3382925" target="_blank" class="label link linked">
                 <span class="label_icon"><img src="../../img/icon/link_icon.png" alt="" height=13></span>
@@ -257,6 +256,37 @@
               </a>
             </div>
           </div>
+
+          <br>
+
+          <div class="pub_js">
+            <div>
+              <span><strong>粥川青汰</strong>, 石原辰也, 髙木啓伸, 森島繁生, 浅川智恵子.</span>
+              <span><strong>歩行者の動きの解析と衝突予測に基づく公共空間における視覚障害者向け歩行支援システム</strong>.</span>
+              <span><i>インタラクション</i></span>.
+              <span class="body_en">2020</span>. (査読あり, 口頭発表)
+            </div>
+            <div>
+              <span class="label conf">
+                <span class="label_icon"><img src="../../img/icon/conf_icon.png" alt="" height=14></span>
+                <span class="label_contents"><strong>インタラクション</strong>2020</span>
+              </span>
+              <a href="https://www.interaction-ipsj.org/2020/program/" target="_blank" class="label link linked">
+                <span class="label_icon"><img src="../../img/icon/link_icon.png" alt="" height=13></span>
+                <span class="label_contents">Link</span>
+              </a>
+              <a href="./talk_slide/interaction2020_talk_slide_compressed.pdf" class="label slide linked">
+                <span class="label_icon"><img src="../../img/icon/slide.png" alt="" height=14></span>
+                <span class="label_contents">Talk Slide</span>
+              </a>
+              <a href="./paper/Interaction2020_CameraReady.pdf" class="label pdf linked">
+                <span class="label_icon"><img src="../../img/icon/paper_pdf.png" alt="" height=14></span>
+                <span class="label_contents">Paper (Preprint)</span>
+              </a>
+            </div>
+          </div>
+
+
           
           <div class="project_line"></div>
 
