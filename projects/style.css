@@ -201,7 +201,7 @@ a.anchor{
 .label.project{
   padding: 0.2033em 0.733em;
   font-size: 0.7rem;
-  border: 2px solid #4267B2;
+  border: 1px solid #4267B2;
   background-color: #FFFFFF;
   color: #4267B2;
 }
@@ -343,4 +343,52 @@ a.anchor{
   margin-top: 4.0rem;
   margin-bottom: 1.5rem;
   opacity: 0.75;
+}
+
+
+
+.project_name{
+  font-size: 1.0rem;
+  font-weight: 500;
+}
+.project_author{
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+.project_line{
+  border-top: solid 1px #435561;
+  opacity: 0.25;
+}
+.project_teaser{
+  display: flex;
+}
+.project_teaser img{
+  opacity: 0.9;
+}
+.table{
+  display: table;
+}
+.table > div{
+    display:table-cell;
+    vertical-align: middle;
+}
+.project_teaser.tba img:hover{
+  /* opacity: 0.85; */
+}
+
+.proj_label{
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  background-color: none;
+  background-image: none;
+  padding: 0.1033em .633em;
+  border: 1px solid #4267B2;
+  color: #4267B2;
+  text-transform: none;
+  font-weight: 500;
+  font-size: 0.75rem;
+  border: 1 solid transparent;
+  border-radius: .26666667rem;
 }
