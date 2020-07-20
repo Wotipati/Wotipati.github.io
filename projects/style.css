@@ -225,31 +225,31 @@ a.anchor{
 .BackGround_BBeep{
   background:#ddd url(./BBeep/images/BBeep_BG.png) no-repeat center center;
   background-size:cover;
-  border-radius: .5rem;
+  border-radius: .35rem;
 }
 
 .BackGround_DOS{
   background:#ddd url(./DO-Scanning/images/DO-Scanning_BG.png) no-repeat center center;
   background-size:cover;
-  border-radius: .5rem;
+  border-radius: .35rem;
 }
 
 .BackGround_CHI20Line{
   background:#ddd url(./CHI2020_LBW_Line/image/CHI20_Line_BG.png) no-repeat center center;
   background-size:cover;
-  border-radius: .5rem;
+  border-radius: .35rem;
 }
 
 .BackGround_CHI20BlindPilot{
   background:#ddd url(./CHI2020_LBW_BlindPilot/image/BlindPilot_BG.png) no-repeat center center;
   background-size:cover;
-  border-radius: .5rem;
+  border-radius: .35rem;
 }
 
 .BackGround_IMWUT2020{
   background:#ddd url(./IMWUT2020/image/IMWUT2020_BG.png) no-repeat center center;
   background-size:cover;
-  border-radius: .5rem;
+  border-radius: .35rem;
 }
 
 
