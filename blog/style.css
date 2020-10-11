@@ -59,15 +59,18 @@ a.anchor{
   padding-bottom: 1.5rem;
   padding-top: 5.5rem;
   margin-right: 1.2rem;
+  line-height: 1.5rem;
 }
 .sidebar__contents{
   margin-top: 1.3rem;
   font-size: 0.9rem;
+  line-height: 1.5rem;
 }
 .sidebar__projects{
   margin-top: 1.6rem;
   margin-bottom: 1.6rem;
   font-size: 0.9rem;
+
 }
 .sidebar__project{
   margin-top: 1.0rem;
@@ -82,19 +85,6 @@ a.anchor{
 }
 .sidebar__icon img:hover{
   opacity: 0.75;
-}
-.sidebar__blogEntry{
-  font-size: 1.1rem;
-  font-weight: 500;
-  padding-top: 5.0rem;
-  margin-bottom: 0.75rem;
-}
-.sidebar__blogTitle{
-  margin-top: 0.75rem;
-  font-size: 0.9rem;
-}
-.sidebar__blogDate{
-  font-size: 0.75rem;
 }
 
 
