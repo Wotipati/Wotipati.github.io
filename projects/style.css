@@ -253,6 +253,13 @@ a.anchor{
   border-radius: .35rem;
 }
 
+.BackGround_CHI2021LineChaser{
+  background:#ddd url(./CHI2021_LineChaser/image/CHI2021_LineChaser_BG.png) no-repeat center center;
+  background-size:cover;
+  border-radius: .35rem;
+}
+
+
 
 .teaser{
   font-size: 1.1rem;
