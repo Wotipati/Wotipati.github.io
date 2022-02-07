@@ -259,6 +259,12 @@ a.anchor{
   border-radius: .35rem;
 }
 
+.BackGround_Acceptance{
+  background:#ddd url(./AI-Suitcase-Acceptance/images/Acceptance_BG.png) no-repeat center center;
+  background-size:cover;
+  border-radius: .35rem;
+}
+
 
 
 .teaser{
@@ -298,7 +304,13 @@ a.anchor{
   opacity: 0.25;
 }
 
-
+.pub_type{
+  clear: both;
+  font-size: 1.0rem;
+  font-weight: 500;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
 .pub_en{
   font-size: 0.9rem;
   font-weight: 400;
@@ -399,4 +411,24 @@ a.anchor{
   font-size: 0.75rem;
   border: 1 solid transparent;
   border-radius: .26666667rem;
+}
+
+.caption{
+  clear: both;
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+  text-align:center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.comments{
+  font-style: italic;
+  padding-bottom: 0.5rem;
+}
+
+.participants{
+  text-align: right;
+  font-size: 0.85rem;
+  padding-bottom: 1.5rem;
 }
