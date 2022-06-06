@@ -303,6 +303,12 @@ a.anchor{
   margin-bottom: 3.0rem;
   opacity: 0.25;
 }
+.related_project_line{
+  border-top: solid 0.75px #637D8F;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  opacity: 0.25;
+}
 
 .pub_type{
   clear: both;
