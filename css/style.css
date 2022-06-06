@@ -131,10 +131,14 @@ a:hover{
 }
 
 .project_name{
+  padding-left: 1.0rem;
+  padding-right: 1.0rem;
   font-size: 1.0rem;
   font-weight: 500;
 }
 .project_author{
+  padding-left: 1.0rem;
+  padding-right: 1.0rem;
   font-size: 0.8rem;
   margin-top: 0.5rem;
 }
@@ -226,6 +230,7 @@ a:hover{
 }
 .label.conf.project{
   padding: 0.2033em 0.733em;
+  margin-left: 1.0rem;
   font-size: 0.7rem;
 }
 
