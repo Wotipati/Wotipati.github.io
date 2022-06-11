@@ -233,6 +233,11 @@ a:hover{
   margin-left: 1.0rem;
   font-size: 0.7rem;
 }
+.label.blog.project{
+  padding: 0.2033em 0.733em;
+  margin-left: 1.0rem;
+  font-size: 0.7rem;
+}
 
 .label_icon{
   display: table-cell;
