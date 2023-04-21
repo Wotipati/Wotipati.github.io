@@ -265,6 +265,11 @@ a.anchor{
   border-radius: .35rem;
 }
 
+.BackGround_3DMovieMap{
+  background:#ddd url(./CHI2023_LBW_3DMovieMap/images/3DMovieMap_BG.png) no-repeat center center;
+  background-size:cover;
+  border-radius: .35rem;
+}
 
 
 
