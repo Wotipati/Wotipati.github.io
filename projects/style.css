@@ -271,6 +271,12 @@ a.anchor{
   border-radius: .35rem;
 }
 
+.BackGround_MuseumTour{
+  background:#ddd url(./CHI2023_MuseumTour/image/MuseumTour_BG.png) no-repeat center center;
+  background-size:cover;
+  border-radius: .35rem;
+}
+
 
 
 .teaser{
