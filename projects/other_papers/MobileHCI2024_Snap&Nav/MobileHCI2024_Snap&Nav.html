@@ -1,0 +1,399 @@
+</span><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>
+      Snap&Nav: Smartphone-based Indoor Navigation System For Blind People via Floor Map Analysis and Intersection Detection
+    </title>
+    <meta property="og:site_name" content="Snap&Nav: Smartphone-based Indoor Navigation System For Blind People via Floor Map Analysis and Intersection Detection">
+    <meta property="og:title" content="Snap&Nav: Smartphone-based Indoor Navigation System For Blind People via Floor Map Analysis and Intersection Detection">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://wotipati.github.io/other_papers/MobileHCI2024_Snap&Nav/MobileHCI2024_Snap&Nav.html">
+    <meta property="og:image" content="https://wotipati.github.io/projects/other_papers/MobileHCI2024_Snap&Nav/MobileHCI2024_Snap&Nav-Thumb.png">
+    <meta property="og:description" content="">
+    <link rel="shortcut icon" href="../../../img/icon/web_icon.ico" >
+    <link rel="stylesheet" href="../../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../css/normalize.css">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../../css/sidebar.css" >
+
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500" rel="stylesheet">
+    <link hreflang="ja" href="https://Wotipati.github.io/jp/">
+    <link hreflang="en" href="https://Wotipati.github.io/">
+    <script>
+      (function(d) {
+        var config = {
+          kitId: 'ehe2scb',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130769410-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-130769410-1');
+    </script>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="navbar hidden-md-up navbar-light bg-light">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hamburger_menu" aria-controls="hamburger_menu" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="hamburger_menu">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0 float-right">
+              <li class="sidebar__contents">
+                <a href="../../index.html#profile">Profile</a>
+              </li>
+              <li class="sidebar__contents">
+                <a href="../../index.html#projects">Projects</a>
+              </li>
+              <li class="sidebar__contents">
+                <a href="../../index.html#publication">Publications</a>
+              </li>
+              <li class="sidebar__contents">
+                <a href="../../resume/Resume_Seita_Kayukawa.pdf" target="_blank">
+                  Resume/CV
+                </a>
+              </li>
+              <li class="sidebar__contents">
+                <a href="../../index.html#contact">Contact</a>
+              </li>
+              <li class="sidebar__contents">
+                <span class="sidebar__icon">
+                  <a href="https://scholar.google.co.jp/citations?user=SpfOQHAAAAAJ&hl=ja" target="_blank"><img src="../../img/icon/google_icon.png" alt="" width=22></a>
+                </span>
+                <span class="sidebar__icon">
+                  <a href="https://www.facebook.com/profile.php?id=100009598263382" target="_blank"><img src="../../img/icon/f_icon.png" alt="" width=22></a>
+                </span>
+                <span class="sidebar__icon">
+                  <a href="https://twitter.com/_wotipati_" target="_blank"><img src="../../img/icon/twitter_icon.png" alt="" width=22></a>
+                </span>
+                <span class="sidebar__icon">
+                  <a href="https://github.com/Wotipati" target="_blank"><img src="../../img/icon/github_icon.png" alt="" width=22></a>
+                </span>
+              </li>
+              <li class="sidebar__contents"></li>
+            </ul>
+          </div>
+        </nav>
+
+        <nav class="col-lg-3 col-md-3 hidden-sm-down sidebar mx-auto">
+          <div class="float-right pr-lg-5">
+            <ul class="nav nav-pills flex-column">
+              <div class="sidebar__name">
+                <a href="../../index.html#profile">Seita Kayukawa</a>
+              </div>
+              <div class="sidebar__contents">
+                <a href="../../index.html#profile">Profile</a>
+              </div>
+              <div class="sidebar__contents">
+                <a href="../../index.html#projects">Projects</a>
+              </div>
+              <div class="sidebar__contents">
+                <a href="../../index.html#publication">Publications</a>
+              </div>
+              <div class="sidebar__contents">
+                <a href="../../resume/Resume_Seita_Kayukawa.pdf" target="_blank">
+                  Resume/CV
+                </a>
+              </div>
+              <div class="sidebar__contents">
+                <a href="../../index.html#contact">Contact</a>
+              </div>
+              <div class="sidebar__icons">
+                <span class="sidebar__icon">
+                  <a href="https://scholar.google.co.jp/citations?user=SpfOQHAAAAAJ&hl=ja" target="_blank"><img src="../../img/icon/google_icon.png" alt="" width=22></a>
+                </span>
+                <span class="sidebar__icon">
+                  <a href="https://twitter.com/_wotipati_" target="_blank"><img src="../../img/icon/twitter_icon.png" alt="" width=22></a>
+                </span>
+                <span class="sidebar__icon">
+                  <a href="https://github.com/Wotipati" target="_blank"><img src="../../img/icon/github_icon.png" alt="" width=22></a>
+                </span>
+              </div>
+            </ul>
+          </div>
+        </nav>
+
+        <main class="col-lg-8 col-md-8 col-12 offset-md-3 pt-md-5">
+          <div class="BackGround_SaN">
+            <div style="padding-left: 2rem; padding-bottom: 1.0rem">
+              <img src="./MobileHCI2024_Logo.png" alt="" width=180 style="padding-top: 1.5rem; padding-bottom: 0.5rem;">
+              <div class="project_title">
+                <div>
+                  Snap&Nav:
+                </div>
+                <div>
+                  Smartphone-based Indoor Navigation System For Blind People via Floor Map Analysis and Intersection Detection
+                </div>
+              </div>
+
+              <div class="project_authors">
+                Masaya Kubota*, Masaki Kuribayashi*, Seita Kayukawa, Hironobu Takagi, Chieko Asakawa, Shigeo Morishima
+              </div>
+              <div class="project_authors" style="font-size: 0.75rem; padding-top:0.2rem">
+                (* - equal contribution)
+              </div>
+            </div>
+          </div>
+          <img src="./Snap&Nav_teaser.png" alt="" width="100%" style="opacity: 1; padding-top: 1.5rem; padding-bottom: 0.0rem;">
+
+          <div class="project_index" style="text-align:center">
+            Abstract
+          </div>
+          <div class="abstract">
+            We present Snap&Nav, a navigation system for blind people in unfamiliar buildings, without prebuilt digital maps. Instead, the system utilizes the floor map as its primary information source for route guidance. The system requires a sighted assistant to capture an image of the floor map, which is analyzed to create a node map containing intersections, destinations, and current positions on the floor. The system provides turn-by-turn navigation instructions while tracking users' positions on the node map by detecting intersections. Additionally, the system estimates the scale difference of the node map to provide distance information. Our system was validated through two user studies with 20 sighted and 12 blind participants. Results showed that sighted participants processed floor map images without being accustomed to the system, while blind participants navigated with increased confidence and lower cognitive load compared to the condition using only cane, appreciating the system's potential for use in various buildings.
+          </div>
+
+          <!-- <div class="project_line"></div> -->
+
+          <div class="project_line" style="margin-bottom: 0.0rem"></div>
+
+          <div class="row">
+            <div class="col-xl-6 col-lg-8 col-10 offset-xl-0 offset-lg-2 offset-1">
+              <div class="video_type" style="text-align:center">
+                30-sec Preview Video
+              </div>
+              <div class="video">
+                <iframe src="https://www.youtube.com/embed/77ueFtn66-M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-8 col-10 offset-xl-0 offset-lg-2 offset-1">
+              <div class="video_type" style="text-align:center">
+                Main Video [2:15]
+              </div>
+              <div class="video">
+                <iframe src="https://www.youtube.com/embed/FyuPaFXFWvA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+          <div class="project_line"></div>
+
+          <div class="project_index" style="text-align:center">
+            Publications
+          </div>
+          <div class="pub_en">
+            <div>
+              <span>Masaya Kubota*, Masaki Kuribayashi*, <span class="body_en_bold">Seita Kayukawa</span>, Hironobu Takagi, Chieko Asakawa, and Shigeo Morishima.</span>
+              <span>2024.</span>
+              <span class="body_en_bold">Snap&Nav: Smartphone-based Indoor Navigation System For Blind People via Floor Map Analysis and Intersection Detection.</span>
+              <span>In <i>Proceedings of the 26th International Conference on Human-Computer Interaction with Mobile Devices and Services (MobileHCI 2024)</i></span>. 
+            </div>
+            <div>
+              <span class="label conf">
+                <span class="label_icon"><img src="../../../img/icon/conf_icon.png" alt="" height=14></span>
+                <span class="label_contents">MobileHCI 2024</span>
+              </span>
+              <a href="https://doi.org/10.1145/3676522" target="_blank" class="label link linked">
+                <span class="label_icon"><img src="../../../img/icon/link_icon.png" alt="" height=13></span>
+                <span class="label_contents">DOI</span>
+              </a>
+              <a href="./Snap&Nav_slide.pdf" class="label slide linked">
+                <span class="label_icon"><img src="../../../img/icon/slide.png" alt="" height=14></span>
+                <span class="label_contents">Talk Slide</span>
+              </a>
+              <a href="./MobileHCI2024_Snap&Nav.pdf" class="label pdf linked">
+                <span class="label_icon"><img src="../../../img/icon/paper_pdf.png" alt="" height=14></span>
+                <span class="label_contents">Paper</span>
+              </a>
+              <a href="./MobileHCI2024_Snap&Nav_BibTex.html" class="label bibtex linked">
+                <span class="label_icon"><img src="../../../img/icon/BibTex_icon.png" alt="" height=14></span>
+                <span class="label_contents">BibTeX</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="project_line"></div>
+
+          <div class="project_index" style="text-align:center">
+            Authors
+          </div>
+
+          <div class="row">
+            <div class="col-lg-10 offset-lg-1 hidden-md-down">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="author" style="text-align:center">
+                    Masaya Kubota*
+                  </div>
+                  <div class="affiliation" style="text-align:center;">
+                    Waseda University
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="author" style="text-align:center">
+                    <a href="https://www.masakikuribayashi.com/" target="_blank">
+                      Masaki Kuribayashi*
+                    </a>
+                  </div>
+                  <div class="affiliation" style="text-align:center">
+                    Waseda University
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="author" style="text-align:center">
+                    <a href="https://wotipati.github.io/">
+                      Seita Kayukawa
+                    </a>
+                  </div>
+                  <div class="affiliation" style="text-align:center">
+                    IBM Research - Tokyo
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-10 offset-lg-1 hidden-md-down">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="author" style="text-align:center">
+                    <a href="https://research.ibm.com/people/hironobu-takagi" target="_blank">
+                      Hironobu Takagi
+                    </a>
+                  </div>
+                  <div class="affiliation" style="text-align:center">
+                    IBM Research - Tokyo
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="author" style="text-align:center">
+                    <a href="https://research.ibm.com/people/chieko-asakawa" target="_blank">
+                      Chieko Asakawa
+                    </a>
+                  </div>
+                  <div class="affiliation" style="text-align:center; margin-bottom: 0.2rem;">
+                    Miraikan - The National Museum of Emerging Science and Innovation
+                  </div>
+                  <div class="affiliation" style="text-align:center">
+                    IBM Research
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="author" style="text-align:center">
+                    <a href="http://www.mlab.phys.waseda.ac.jp/team/shigeo-morishima-2/?lang=en" target="_blank">
+                      Shigeo Morishima
+                    </a>
+                  </div>
+                  <div class="affiliation" style="text-align:center">
+                    Waseda Research Institute for Science and Engineering
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-6 col-sm-4 hidden-lg-up">
+              <div class="author" style="text-align:center">
+                Masaya Kubota*
+              </div>
+              <div class="affiliation" style="text-align:center;">
+                Waseda University
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 hidden-lg-up">
+              <div class="author" style="text-align:center">
+                <a href="https://www.masakikuribayashi.com/" target="_blank">
+                  Masaki Kuribayashi*
+                </a>
+              </div>
+              <div class="affiliation" style="text-align:center">
+                Waseda University
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 hidden-lg-up">
+              <div class="author" style="text-align:center">
+                <a href="https://wotipati.github.io/">
+                  Seita Kayukawa
+                </a>
+              </div>
+              <div class="affiliation" style="text-align:center">
+                IBM Research - Tokyo
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 hidden-lg-up">
+              <div class="author" style="text-align:center">
+                <a href="https://research.ibm.com/people/hironobu-takagi" target="_blank">
+                  Hironobu Takagi
+                </a>
+              </div>
+              <div class="affiliation" style="text-align:center">
+                IBM Research - Tokyo
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 hidden-lg-up">
+              <div class="author" style="text-align:center">
+                <a href="https://research.ibm.com/people/chieko-asakawa" target="_blank">
+                  Chieko Asakawa
+                </a>
+              </div>
+              <div class="affiliation" style="text-align:center; margin-bottom: 0.2rem;">
+                Miraikan - The National Museum of Emerging Science and Innovation
+              </div>
+              <div class="affiliation" style="text-align:center">
+                IBM Research
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 hidden-lg-up">
+              <div class="author" style="text-align:center">
+                <a href="http://www.mlab.phys.waseda.ac.jp/team/shigeo-morishima-2/?lang=en" target="_blank">
+                  Shigeo Morishima
+                </a>
+              </div>
+              <div class="affiliation" style="text-align:center">
+                Waseda Research Institute for Science and Engineering
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12">
+            <div style="text-align:center; font-size: 0.85rem; margin-top: -0.75rem; padding-top: 0rem;">
+              (* - equal contribution)
+            </div>
+          </div>
+
+
+          <div class="project_line"></div>
+          <div class="project_index" style="text-align:center">
+            Acknowledgements
+          </div>
+
+          <div class="abstract">
+            We would like to thank all the participants who took part in our user study. We would also thank Miraikan - The National Museum of Emerging Science and Innovation for their support. This work was supported by JSPS KAKENHI (JP23KJ2048).
+          </div>
+
+          <div class="footer">
+            <div>&copy; Seita Kayukawa</div>
+            <div style="font-size: 0.75rem;">Last update: 2024.10.10</div>
+          </div>
+
+        </main>
+      </div> <!-- div class="row" -->
+    </div>
+
+
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../js/ie10-viewport-bug-workaround.js"></script>
+
+
+
+  </body>
+</html>

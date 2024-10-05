@@ -277,7 +277,17 @@ a.anchor{
   border-radius: .35rem;
 }
 
+.BackGround_CCG{
+  background:#ddd url(./other_papers/MobileHCI2024_ChitChatGuide/ChitChatGuide_BG.png) no-repeat center center;
+  background-size:cover;
+  border-radius: .35rem;
+}
 
+.BackGround_SaN{
+  background:#ddd url(./other_papers/MobileHCI2024_Snap&Nav/Snap&Nav_BG.png) no-repeat center center;
+  background-size:cover;
+  border-radius: .35rem;
+}
 
 .teaser{
   font-size: 1.1rem;
