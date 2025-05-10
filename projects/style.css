@@ -289,6 +289,12 @@ a.anchor{
   border-radius: .35rem;
 }
 
+.BackGround_BeyondOmakase{
+  background:#ddd url(./CHI2025_BeyondOmakase/image/CHI2025_BeyondOmakase-BG.png) no-repeat center center;
+  background-size:cover;
+  border-radius: .35rem;
+}
+
 .teaser{
   font-size: 1.1rem;
   font-weight: 400;
