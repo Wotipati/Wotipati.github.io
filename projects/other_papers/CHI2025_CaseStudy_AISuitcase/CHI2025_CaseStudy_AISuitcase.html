@@ -1,0 +1,475 @@
+</span><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>
+      Field Trials of Autonomous Navigation Robot for Visually Impaired People
+    </title>
+    <meta property="og:site_name" content="Field Trials of Autonomous Navigation Robot for Visually Impaired People">
+    <meta property="og:title" content="Field Trials of Autonomous Navigation Robot for Visually Impaired People">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://wotipati.github.io/projects/other_papers/CHI2025_CaseStudy_AISuitcase/CHI2025_CaseStudy_AISuitcase.html">
+    <meta property="og:image" content="https://wotipati.github.io/projects/other_papers/CHI2025_CaseStudy_AISuitcase/CHI2025_CaseStudy_AISuitcase_Thumb.png">
+    <meta property="og:description" content="">
+    <link rel="shortcut icon" href="../../../img/icon/web_icon.ico" >
+    <link rel="stylesheet" href="../../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../css/normalize.css">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../../css/sidebar.css" >
+
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500" rel="stylesheet">
+    <link hreflang="ja" href="https://Wotipati.github.io/jp/">
+    <link hreflang="en" href="https://Wotipati.github.io/">
+    <script>
+      (function(d) {
+        var config = {
+          kitId: 'ehe2scb',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130769410-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-130769410-1');
+    </script>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="navbar hidden-md-up navbar-light bg-light">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hamburger_menu" aria-controls="hamburger_menu" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="hamburger_menu">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0 float-right">
+              <li class="sidebar__contents">
+                <a href="../../../index.html#profile">Profile</a>
+              </li>
+              <li class="sidebar__contents">
+                <a href="../../../index.html#projects">Projects</a>
+              </li>
+              <li class="sidebar__contents">
+                <a href="../../../index.html#publication">Publications</a>
+              </li>
+              <li class="sidebar__contents">
+                <a href="../../../resume/Resume_Seita_Kayukawa.pdf" target="_blank">
+                  Resume/CV
+                </a>
+              </li>
+              <li class="sidebar__contents">
+                <a href="../../index.html#contact">Contact</a>
+              </li>
+              <li class="sidebar__contents">
+                <span class="sidebar__icon">
+                  <a href="https://scholar.google.co.jp/citations?user=SpfOQHAAAAAJ&hl=ja" target="_blank"><img src="../../../img/icon/google_icon.png" alt="" width=22></a>
+                </span>
+                <span class="sidebar__icon">
+                  <a href="https://www.facebook.com/profile.php?id=100009598263382" target="_blank"><img src="../../../img/icon/f_icon.png" alt="" width=22></a>
+                </span>
+                <span class="sidebar__icon">
+                  <a href="https://twitter.com/_wotipati_" target="_blank"><img src="../../../img/icon/twitter_icon.png" alt="" width=22></a>
+                </span>
+                <span class="sidebar__icon">
+                  <a href="https://github.com/Wotipati" target="_blank"><img src="../../../img/icon/github_icon.png" alt="" width=22></a>
+                </span>
+              </li>
+              <li class="sidebar__contents"></li>
+            </ul>
+          </div>
+        </nav>
+
+        <nav class="col-lg-3 col-md-3 hidden-sm-down sidebar mx-auto">
+          <div class="float-right pr-lg-5">
+            <ul class="nav nav-pills flex-column">
+              <div class="sidebar__name">
+                <a href="../../../index.html#profile">Seita Kayukawa</a>
+              </div>
+              <div class="sidebar__contents">
+                <a href="../../../index.html#profile">Profile</a>
+              </div>
+              <div class="sidebar__contents">
+                <a href="../../../index.html#projects">Projects</a>
+              </div>
+              <div class="sidebar__contents">
+                <a href="../../../index.html#publication">Publications</a>
+              </div>
+              <div class="sidebar__contents">
+                <a href="../../../resume/Resume_Seita_Kayukawa.pdf" target="_blank">
+                  Resume/CV
+                </a>
+              </div>
+              <div class="sidebar__contents">
+                <a href="../../../index.html#contact">Contact</a>
+              </div>
+              <div class="sidebar__icons">
+                <span class="sidebar__icon">
+                  <a href="https://scholar.google.co.jp/citations?user=SpfOQHAAAAAJ&hl=ja" target="_blank"><img src="../../../img/icon/google_icon.png" alt="" width=22></a>
+                </span>
+                <span class="sidebar__icon">
+                  <a href="https://twitter.com/_wotipati_" target="_blank"><img src="../../../img/icon/twitter_icon.png" alt="" width=22></a>
+                </span>
+                <span class="sidebar__icon">
+                  <a href="https://github.com/Wotipati" target="_blank"><img src="../../../img/icon/github_icon.png" alt="" width=22></a>
+                </span>
+              </div>
+            </ul>
+          </div>
+        </nav>
+
+        <main class="col-lg-8 col-md-8 col-12 offset-md-3 pt-md-5">
+          <div class="BackGround_AISCaseStudy">
+            <div style="padding-left: 2rem; padding-bottom: 1.0rem">
+              <img src="./CHI2025_logo.png" alt="" width=160 style="padding-top: 0.8rem; padding-bottom: 0.3rem;">
+              <div class="project_title">
+                Field Trials of Autonomous Navigation Robot for Visually Impaired People
+              </div>
+
+              <div class="project_authors">
+                Hironobu Takagi, Kakuya Naito, Daisuke Sato, Masayuki Murata, Seita Kayukawa, and Chieko Asakawa.
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-10 offset-lg-1 col-12">
+              <img src="./CHI2025_CaseStudy_AISuitcase_teaser.png" alt="" width="100%" style="opacity: 1; padding-top: 1.5rem; padding-bottom: 0.0rem;">
+            </div>
+          </div>
+
+          <div class="project_index" style="text-align:center">
+            Abstract
+          </div>
+          <div class="abstract">
+            Despite the advances made in assistive technologies for people with visual impairments, challenges remain in unfamiliar public spaces such as shopping malls, museums, and transit hubs. First-time visitors often face difficulties in navigating these environments independently, so they seek both safety and ease. To address this issue, we developed AI Suitcase, a navigation robot that resembles a conventional suitcase. By holding its handle, users are guided safely to their destinations while receiving real-time information about their surroundings, promoting mobility and independence for individuals with visual impairments. This paper presents the results of field trials from a pilot study in a commercial complex, daily operations at a museum, and an outdoor pilot test, involving more than 2,200 participants, a quarter of whom are visually impaired. Positive feedback and interest in using navigational robots in daily life suggest the potential of this technology. The challenges encountered during these trials, which are crucial for practical deployment, are also discussed.
+          </div>
+
+          <div class="project_line"></div>
+          <div class="project_index" style="text-align:center">
+            Presentation Video
+          </div>
+
+          <div class="row">
+            <div class="col-xl-6 col-lg-8 col-10 offset-xl-3 offset-lg-2 offset-1">
+              <div class="video">
+                <iframe src="https://www.youtube.com/embed/WLAMvOQlgts?si=Tzo-tRjrLbKmFEXc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+          <div class="project_line"></div>
+
+          <div class="project_index" style="text-align:center">
+            Publication
+          </div>
+          <div class="pub_en">
+            <div>
+              <span>Hironobu Takagi, Kakuya Naito, Daisuke Sato, Masayuki Murata, Seita Kayukawa, and Chieko Asakawa.</span>
+              <span>2025.</span>
+              <span>Field Trials of Autonomous Navigation Robot for Visually Impaired People.</span>
+              <span>In <i>Extended Abstracts of the 2025 CHI Conference on Human Factors in Computing Systems (CHI 2025 Case Study)</i></span>.
+            </div>
+            <div>
+              <span class="label conf">
+                <span class="label_icon"><img src="../../../img/icon/conf_icon.png" alt="" height=14></span>
+                <span class="label_contents">CHI 2025 Case Study</span>
+              </span>
+              <a href="https://dl.acm.org/doi/10.1145/3706599.3706663" target="_blank" class="label link linked">
+                <span class="label_icon"><img src="../../../img/icon/link_icon.png" alt="" height=13></span>
+                <span class="label_contents">DOI</span>
+              </a>
+              <a href="./CHI2025_CaseStudy_AISuitcase_slide.pdf" class="label slide linked">
+                <span class="label_icon"><img src="../../../img/icon/slide.png" alt="" height=14></span>
+                <span class="label_contents">Talk Slide</span>
+              </a>
+              <a href="./CHI2025_CaseStudy_AISuitcase_paper.pdf" class="label pdf linked">
+                <span class="label_icon"><img src="../../../img/icon/paper_pdf.png" alt="" height=14></span>
+                <span class="label_contents">Paper</span>
+              </a>
+              <a href="./CHI2025_CaseStudy_AISuitcase_BibTex.html" class="label bibtex linked">
+                <span class="label_icon"><img src="../../../img/icon/BibTex_icon.png" alt="" height=14></span>
+                <span class="label_contents">BibTeX</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="project_line"></div>
+
+          <div class="project_index" style="text-align:center">
+            Authors
+          </div>
+          <div class="row">
+            <div class="col-lg-10 offset-lg-1 hidden-md-down">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="author" style="text-align:center">
+                    <a href="https://research.ibm.com/people/hironobu-takagi" target="_blank">
+                      Hironobu Takagi
+                    </a>
+                  </div>
+                  <div class="affiliation" style="text-align:center; margin-bottom: 0.2rem;">
+                    Miraikan - The National Museum of Emerging Science and Innovation
+                  </div>
+                  <div class="affiliation" style="text-align:center">
+                    IBM Research
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="author" style="text-align:center">
+                    <a href="https://orcid.org/0009-0007-7055-2053" target="_blank">
+                      Kakuya Naito
+                    </a>
+                  </div>
+                  <div class="affiliation" style="text-align:center">
+                    Shimizu Corporation
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="author" style="text-align:center">
+                    <a href="https://www.ri.cmu.edu/ri-people/daisuke-sato/" target="_blank">
+                      Daisuke Sato
+                    </a>
+                  </div>
+                  <div class="affiliation" style="text-align:center">
+                    Carnegie Mellon University
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-10 offset-lg-1 hidden-md-down">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="author" style="text-align:center">
+                    <a href="https://researcher.watson.ibm.com/researcher/view.php?person=jp-muratams" target="blank_">
+                      Masayuki Murata
+                    </a>
+                  </div>
+                  <div class="affiliation" style="text-align:center">
+                    IBM Research
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="author" style="text-align:center">
+                    <a href="https://wotipati.github.io/">
+                      Seita Kayukawa
+                    </a>
+                  </div>
+                  <div class="affiliation" style="text-align:center">
+                    IBM Research
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="author" style="text-align:center">
+                    <a href="https://research.ibm.com/people/chieko-asakawa" target="_blank">
+                      Chieko Asakawa
+                    </a>
+                  </div>
+                  <div class="affiliation" style="text-align:center; margin-bottom: 0.2rem;">
+                    Miraikan - The National Museum of Emerging Science and Innovation
+                  </div>
+                  <div class="affiliation" style="text-align:center">
+                    IBM Research
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-6 col-sm-4 hidden-lg-up">
+              <div class="author" style="text-align:center">
+                <a href="https://research.ibm.com/people/hironobu-takagi" target="_blank">
+                  Hironobu Takagi
+                </a>
+              </div>
+              <div class="affiliation" style="text-align:center; margin-bottom: 0.2rem;">
+                Miraikan - The National Museum of Emerging Science and Innovation
+              </div>
+              <div class="affiliation" style="text-align:center">
+                IBM Research
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 hidden-lg-up">
+              <div class="author" style="text-align:center">
+                <a href="https://orcid.org/0009-0007-7055-2053" target="_blank">
+                  Kakuya Naito
+                </a>
+              </div>
+              <div class="affiliation" style="text-align:center">
+                Shimizu Corporation
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 hidden-lg-up">
+              <div class="author" style="text-align:center">
+                <a href="https://www.ri.cmu.edu/ri-people/daisuke-sato/" target="_blank">
+                  Daisuke Sato
+                </a>
+              </div>
+              <div class="affiliation" style="text-align:center">
+                Carnegie Mellon University
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 hidden-lg-up">
+              <div class="author" style="text-align:center">
+                <a href="https://researcher.watson.ibm.com/researcher/view.php?person=jp-muratams" target="blank_">
+                  Masayuki Murata
+                </a>
+              </div>
+              <div class="affiliation" style="text-align:center">
+                IBM Research
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 hidden-lg-up">
+              <div class="author" style="text-align:center">
+                <a href="https://wotipati.github.io/">
+                  Seita Kayukawa
+                </a>
+              </div>
+              <div class="affiliation" style="text-align:center">
+                IBM Research
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 hidden-lg-up">
+              <div class="author" style="text-align:center">
+                <a href="https://research.ibm.com/people/chieko-asakawa" target="_blank">
+                  Chieko Asakawa
+                </a>
+              </div>
+              <div class="affiliation" style="text-align:center; margin-bottom: 0.2rem;">
+                Miraikan - The National Museum of Emerging Science and Innovation
+              </div>
+              <div class="affiliation" style="text-align:center">
+                IBM Research
+              </div>
+            </div>
+          </div>
+
+          <div class="project_line"></div>
+
+          <div class="project_index" style="text-align:center">
+            Related Projects
+          </div>
+          <div class="row align-items-center">
+            <div class="col-xl-3 col-lg-4 col-sm-5 col-10 offset-sm-0 offset-1 pt-2 pb-2">
+              <span class="project_teaser"><a href="../../CHI2025_BeyondOmakase/CHI2025_BeyondOmakase.html"><img class="rounded" src="../../CHI2025_BeyondOmakase/image/CHI2025_BeyondOmakase-Thumbnail.png" style="opacity: 0.95; display: block; margin: auto;" alt="" width="90%"></a></span>
+            </div>
+            <div class="col-xl-9 col-lg-8 col-sm-7 col-12 pt-2 pb-2 pl-sm-0 pr-sm-0 pl-4 pr-4">
+              <div class="project_name"><a href="../../CHI2025_BeyondOmakase/CHI2025_BeyondOmakase.html">Beyond Omakase: Designing Shared Control for Navigation Robots with Blind People</a></div>
+              <div class="project_author">Rie Kamikubo, Seita Kayukawa, Yuka Kaniwa, Allan Wang, Hernisa Kacorri, Hironobu Takagi, and Chieko Asakawa.</div>
+              <div class="label conf project">CHI 2025</div>
+            </div>
+          </div>
+          <div class="related_project_line"></div>
+          <div class="row align-items-center">
+            <div class="col-xl-3 col-lg-4 col-sm-5 col-10 offset-sm-0 offset-1 pt-2 pb-2">
+              <span class="project_teaser"><a href="../../CHI2023_MuseumTour/CHI2023_MuseumTour.html"><img class="rounded" src="../../CHI2023_MuseumTour/image/Miraikan-Tour-Thumbnail.png" style="opacity: 0.95; display: block; margin: auto;" alt="" width="90%"></a></span>
+            </div>
+            <div class="col-xl-9 col-lg-8 col-sm-7 col-12 pt-2 pb-2 pl-sm-0 pr-sm-0 pl-4 pr-4">
+              <div class="project_name"><a href="../../CHI2023_MuseumTour/CHI2023_MuseumTour.html">Enhancing Blind Visitor's Autonomy in a Science Museum Using an Autonomous Navigation Robot</a></div>
+              <div class="project_author">Seita Kayukawa, Daisuke Sato, Masayuki Murata, Tatsuya Ishihara, Hironobu Takagi, Shigeo Morishima, and Chieko Asakawa.</div>
+              <div class="label conf project">CHI 2023</div>
+            </div>
+          </div>
+          <div class="related_project_line"></div>
+          <div class="row align-items-center">
+            <div class="col-xl-3 col-lg-4 col-sm-5 col-10 offset-sm-0 offset-1 pt-2 pb-2">
+              <span class="project_teaser"><a href="../../AI-Suitcase-Acceptance/index.html"><img class="rounded" src="../../AI-Suitcase-Acceptance/images/Acceptance_thumb.png" style="opacity: 0.95; display: block; margin: auto;" alt="" width="90%"></a></span>
+            </div>
+            <div class="col-xl-9 col-lg-8 col-sm-7 col-12 pt-2 pb-2 pl-sm-0 pr-sm-0 pl-4 pr-4">
+              <div class="project_name"><a href="../../AI-Suitcase-Acceptance/index.html">How Users, Facility Managers, and Bystanders Perceive and Accept a Navigation Robot for Visually Impaired People in Public Buildings</a></div>
+              <div class="project_author">Seita Kayukawa, Daisuke Sato, Masayuki Murata, Tatsuya Ishihara, Akihiro Kosugi, Hironobu Takagi, Shigeo Morishima, and Chieko Asakawa</div>
+              <div class="label conf project">IEEE RO-MAN 2022</div>
+            </div>
+          </div>
+          <div class="related_project_line"></div>
+          <div class="row align-items-center">
+            <div class="col-xl-3 col-lg-4 col-sm-5 col-10 offset-sm-0 offset-1 pt-2 pb-2">
+              <span class="project_teaser"><a target="_blank" href="https://dl.acm.org/doi/10.1145/3308561.3353771"><img class="rounded" src="../../AI-Suitcase-Acceptance/images/CaBot_ASSETS.png" style="display: block; margin: auto;" alt="" width="90%"></a></span>
+            </div>
+            <div class="col-xl-9 col-lg-8 col-sm-7 col-12 pt-2 pb-2 pl-sm-0 pr-sm-0 pl-4 pr-4">
+              <div class="project_name"><a target="_blank" href="https://dl.acm.org/doi/10.1145/3308561.3353771">CaBot: Designing and Evaluating an Autonomous Navigation Robot for Blind People</a></div>
+              <div class="project_author">João Guerreiro, Daisuke Sato, Saki Asakawa, Huixu Dong, Kris Kitani and Chieko Asakawa </div>
+              <div class="label conf project">ASSETS 2019</div>
+            </div>
+          </div>
+
+          <div class="project_line"></div>
+          <div class="project_index" style="text-align:center " >
+            Other Links
+          </div>
+
+          <div class="row align-items-center">
+            <div class="col-lg-3 col-sm-4 col-6 offset-sm-0 offset-3 pt-2 pb-2">
+              <span class="project_teaser"><a target="_blank" href="https://github.com/CMU-cabot/cabot"><img class="rounded" src="../../AI-Suitcase-Acceptance/images/CaBot_Github.png" style="display: block; margin: auto;" alt="" width="90%"></a></span>
+            </div>
+            <div class="col-lg-9 col-sm-8 col-12 pt-2 pb-2 pl-sm-0 pr-sm-0 pl-4 pr-4">
+              <div class="project_name"><a target="_blank" href="https://github.com/CMU-cabot/cabot">GitHub - CMU-cabot/cabot</a></div>
+              <div class="project_author">Github repository of our navigation robot</div>
+            </div>
+            
+          </div>
+          <div class="related_project_line"></div>
+          <div class="row align-items-center">
+            <div class="col-lg-3 col-sm-4 col-6 offset-sm-0 offset-3 pt-2 pb-2">
+              <span class="project_teaser"><a target="_blank" href="https://www.cs.cmu.edu/~NavCog/cabot.html"><img class="rounded" src="../../AI-Suitcase-Acceptance/images/CaBot_CAL.png" style="display: block; margin: auto;" alt="" width="90%"></a></span>
+            </div>
+            <div class="col-lg-9 col-sm-8 col-12 pt-2 pb-2 pl-sm-0 pr-sm-0 pl-4 pr-4">
+              <div class="project_name"><a target="_blank" href="https://www.cs.cmu.edu/~NavCog/cabot.html">CAL - CaBot</a></div>
+              <div class="project_author">Cognitive Assistance Lab</div>
+            </div>
+          </div>
+          <div class="related_project_line"></div>
+          <div class="row align-items-center">
+            
+            <div class="col-lg-3 col-sm-4 col-6 offset-sm-0 offset-3 pt-2 pb-2">
+              <span class="project_teaser"><a target="_blank" href="https://caamp.jp/"><img class="rounded" src="../../AI-Suitcase-Acceptance/images/AI-Suitcase_consortium.png" style="display: block; margin: auto;" alt="" width="90%"></a></span>
+            </div>
+            <div class="col-lg-9 col-sm-8 col-12 pt-2 pb-2 pl-sm-0 pr-sm-0 pl-4 pr-4">
+              <div class="project_name"><a target="_blank" href="https://caamp.jp/">Consortium for Advanced Assistive Mobility Platform (CAAMP)</a></div>
+              <div class="project_author">(in Japanese only) </div>
+            </div>
+          </div>
+
+
+          <div class="project_line"></div>
+          <div class="project_index" style="text-align:center">
+            Acknowledgements
+          </div>
+
+          <div class="abstract">
+            We thank the participants in our study as well as the anonymous reviewers for their comments that further strengthened this paper. We also like to thank the Miraikan staff, including Hiromi Kurokawa and Takashi Suzuki, for their help in running the studies. Rie Kamikubo and Hernisa Kacorri were supported from the National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR), ACL, HHS (grant #90REGE0024).
+          </div>
+
+          <div class="footer">
+            <div>&copy; Seita Kayukawa</div>
+            <div style="font-size: 0.75rem;">Last update: 2025.5.11</div>
+          </div>
+        </main>
+      </div> <!-- div class="row" -->
+
+
+    </div>
+
+
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../js/ie10-viewport-bug-workaround.js"></script>
+
+
+
+  </body>
+</html>

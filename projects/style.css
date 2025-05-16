@@ -295,6 +295,12 @@ a.anchor{
   border-radius: .35rem;
 }
 
+.BackGround_AISCaseStudy{
+  background:#ddd url(./other_papers/CHI2025_CaseStudy_AISuitcase/CHI2025_CaseStudy_AISuitcase_BG.png) no-repeat center center;
+  background-size:cover;
+  border-radius: .35rem;
+}
+
 .teaser{
   font-size: 1.1rem;
   font-weight: 400;
