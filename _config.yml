@@ -4,7 +4,7 @@ url: https://seitakayukawa.github.io
 baseurl: ""
 
 # Enable only in Wotipati/Wotipati.github.io after the new site is verified.
-legacy_redirect: false
+legacy_redirect: true
 
 plugins:
   - jekyll-sitemap
